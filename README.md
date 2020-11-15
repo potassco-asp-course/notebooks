@@ -1,6 +1,8 @@
 # Learning Answer Set Programming from Examples
 
-This notebook collects exercises to learn Answer Set Programming from examples.
+This is a [Jupyter](https://jupyter.org/) notebook 
+(deployed using [Binder](https://mybinder.readthedocs.io/en/latest/introduction.html#what-is-a-binder))
+that collects exercises to learn Answer Set Programming from examples.
 
 It is part of the course _Answer Set Solving in Practice_ of the University of Potsdam.
 
