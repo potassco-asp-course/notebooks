@@ -12,6 +12,6 @@ To run the notebook, click here: [![Binder](https://mybinder.org/badge_logo.svg)
 Once the notebook is running, 
 the instructions of the exercises can be found in the file ``Instructions.ipynb``.
 
-The exercises in ``Part-1`` are about programs without variables, and
-the exercises in ``Part-2`` are about programs with variables.
+The exercises in ``part-1`` are about programs without variables, and
+the exercises in ``part-2`` are about programs with variables.
 
