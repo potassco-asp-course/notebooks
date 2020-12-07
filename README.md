@@ -11,6 +11,7 @@ The repository is organized as follows:
   contains basic modeling exercises
 * projects: 
   contains small projects
+* environment.ipynb: describes the environment of the notebooks
  
 The notebooks are deployed using Binder, they can be run following this link:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/potassco-asp-course/notebooks.git/javier/wip)
