@@ -10,4 +10,6 @@ The repository is organized as follows:
   contains basic modeling exercises
 * projects: 
   contains small projects
-
+ 
+You can run the Binder image of this repository clicking here: 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/potassco-asp-course/notebooks.git/javier/wip)
