@@ -9,4 +9,5 @@ The repository is organized as follows:
 * modeling:
   contains basic modeling exercises
 * projects: 
-  contains projects
+  contains small projects
+
