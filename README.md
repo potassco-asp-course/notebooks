@@ -4,11 +4,11 @@ This repository collects notebooks of the course Answer Set Solving in Practice 
 of the University of Potsdam.
 
 The repository is organized as follows:
-* binder: this directory contains configuration files for the notebooks
+* binder: contains configuration files for the notebooks
 * introduction: 
-  this directory contains exercises to learn Answer Set Programming from examples
+  contains exercises to learn Answer Set Programming from examples
 * modeling:
-  this directory contains basic modeling exercises
+  contains basic modeling exercises
 * projects: 
   this directory contains small projects
 * environment.ipynb: this file describes the environment of the notebooks
