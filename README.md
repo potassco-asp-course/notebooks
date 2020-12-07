@@ -5,12 +5,10 @@ of the University of Potsdam.
 
 The repository is organized as follows:
 * binder: contains configuration files for the notebooks
-* introduction: 
-  contains exercises to learn Answer Set Programming from examples
-* modeling:
-  contains basic modeling exercises
-* projects: 
-  contains small projects
+* introduction: contains exercises to learn Answer Set Programming from examples
+* modeling: contains basic modeling exercises
+* projects: contains small projects
+* environment.ipynb: this file describes the environment of the notebooks
  
 The notebooks are deployed using Binder, they can be run following this link:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/potassco-asp-course/notebooks.git/javier/wip)
