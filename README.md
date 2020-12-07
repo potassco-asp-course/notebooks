@@ -4,6 +4,7 @@ This repository collects notebooks of the course Answer Set Solving in Practice 
 of the University of Potsdam.
 
 The repository is organized as follows:
+* binder: contains configuration files for the notebooks
 * introduction: 
   contains exercises to learn Answer Set Programming from examples
 * modeling:
