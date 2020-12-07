@@ -1,6 +1,6 @@
 # Notebooks of the course Answer Set Solving in Practice
 
-This repository collects notebooks (deployed using Binder)
+This repository collects notebooks
 of the course Answer Set Solving in Practice (https://teaching.potassco.org) of the University of Potsdam.
 
 The repository is organized as follows:
@@ -11,5 +11,6 @@ The repository is organized as follows:
 * projects: 
   contains small projects
  
-You can run the Binder image of this repository clicking here: 
+The notebooks are deployed using Binder, 
+they can be run clicking here: 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/potassco-asp-course/notebooks.git/javier/wip)
