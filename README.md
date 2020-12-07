@@ -10,7 +10,7 @@ The repository is organized as follows:
 * modeling:
   contains basic modeling exercises
 * projects: 
-  this directory contains small projects
+  contains small projects
 * environment.ipynb: this file describes the environment of the notebooks
  
 The notebooks are deployed using Binder, they can be run following this link:
