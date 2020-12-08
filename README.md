@@ -1,17 +1,14 @@
-# Learning Answer Set Programming from Examples
+# Notebooks of the course Answer Set Solving in Practice
 
-This is a [Jupyter](https://jupyter.org/) notebook 
-(deployed using [Binder](https://mybinder.readthedocs.io/en/latest/introduction.html#what-is-a-binder))
-that collects exercises to learn Answer Set Programming from examples.
+This repository collects notebooks of the course Answer Set Solving in Practice (https://teaching.potassco.org) 
+of the University of Potsdam.
 
-It is part of the course _Answer Set Solving in Practice_ of the University of Potsdam.
-
-To run the notebook, click here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/potassco-asp-course/notebooks.git/master)
-.
-
-Once the notebook is running, 
-the instructions of the exercises can be found in the file ``Instructions.ipynb``.
-
-The exercises in ``part-1`` are about programs without variables, and
-the exercises in ``part-2`` are about programs with variables.
-
+The repository is organized as follows:
+* binder: contains configuration files for the notebooks
+* introduction: contains exercises to learn Answer Set Programming from examples
+* modeling: contains basic modeling exercises
+* projects: contains small projects
+* environment.ipynb: this file describes the environment of the notebooks
+ 
+The notebooks are deployed using Binder, they can be run following this link:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/potassco-asp-course/notebooks.git/javier/wip)
