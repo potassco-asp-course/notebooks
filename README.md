@@ -6,7 +6,7 @@ that collects exercises to learn Answer Set Programming from examples.
 
 It is part of the course _Answer Set Solving in Practice_ of the University of Potsdam.
 
-To run the notebook, click here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/potassco-asp-course/notebooks.git/master)
+To run the notebook, click here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/potassco-asp-course/notebooks.git/WiSe20)
 .
 
 Once the notebook is running, 
