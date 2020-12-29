@@ -1,7 +1,7 @@
 # Notebooks of the course Answer Set Solving in Practice
 
 This repository collects notebooks of the course Answer Set Solving in Practice (https://teaching.potassco.org) 
-of the University of Potsdam.
+of the University of Potsdam. 
 
 The repository is organized as follows:
 * binder: contains configuration files for the notebooks
