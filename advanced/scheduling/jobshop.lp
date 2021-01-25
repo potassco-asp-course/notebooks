@@ -4,4 +4,4 @@
 
 % Your encoding for the Job Shop problem please...
 
-#show perm/4.
+#show perm/3.

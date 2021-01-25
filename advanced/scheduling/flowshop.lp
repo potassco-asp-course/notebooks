@@ -4,4 +4,4 @@
 
 % Your encoding for the Permutation Flow Shop problem please...
 
-#show perm/3.
+#show perm/2.
