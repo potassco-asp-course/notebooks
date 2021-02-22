@@ -2,7 +2,7 @@ import sys
 import clingo
 
 class MultiJobShopApp(clingo.Application):
-    program_name = "multi-job-shop"
+    program_name = "multi-jobshop"
     version = "1.0"
 
     def __init__(self):
