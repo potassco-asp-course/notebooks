@@ -2,9 +2,10 @@ name: clingoJupyter
 channels:
   - conda-forge
   - defaults
+  - potassco/label/dev
   - potassco
 dependencies:
   - python=3.9
   - ipython=7.19
-  - clingo
+  - clingo=5.5
 
