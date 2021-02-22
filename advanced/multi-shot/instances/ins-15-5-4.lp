@@ -41,31 +41,5 @@ sequence(5,3,2).
 sequence(5,4,1).
 
 
-%
-% Permutation Flow Shop Problem
-%
-%Answer: 1
-%perm(5,1) perm(1,3) perm(2,5) perm(3,2) perm(4,4)
-%Answer: 2
-%perm(3,1) perm(1,2) perm(2,5) perm(4,3) perm(5,4)
 
 
-%
-% Job Shop Problem
-%
-%Answer: 1
-%perm(1,3,1) perm(2,4,1) perm(3,2,1) perm(1,4,4) perm(3,4,5) perm(4,4,2) perm(5,4,3) perm(4,2,4) perm(1,2,3) perm(2,2,2) perm(2,3,5) perm(4,3,2) perm(5,3,4) perm(3,1,2) perm(2,1,1) perm(1,1,3) perm(5,1,5) perm(4,1,4) perm(3,3,3) perm(5,2,5)
-%Answer: 2
-%perm(1,3,1) perm(2,4,1) perm(3,2,1) perm(1,4,4) perm(3,4,5) perm(4,4,2) perm(5,4,3) perm(4,2,4) perm(1,2,3) perm(2,2,2) perm(2,3,4) perm(4,3,2) perm(5,3,5) perm(3,1,2) perm(2,1,1) perm(1,1,3) perm(5,1,5) perm(4,1,4) perm(3,3,3) perm(5,2,5)
-%Answer: 3
-%perm(1,3,1) perm(2,4,1) perm(3,2,1) perm(1,4,4) perm(3,4,5) perm(4,4,2) perm(5,4,3) perm(4,2,4) perm(1,2,3) perm(2,2,2) perm(2,3,5) perm(4,3,2) perm(5,3,4) perm(3,1,3) perm(2,1,1) perm(1,1,2) perm(5,1,5) perm(4,1,4) perm(3,3,3) perm(5,2,5)
-%Answer: 4
-%perm(1,3,1) perm(2,4,1) perm(3,2,1) perm(1,4,4) perm(3,4,5) perm(4,4,2) perm(5,4,3) perm(4,2,4) perm(1,2,3) perm(2,2,2) perm(2,3,4) perm(4,3,2) perm(5,3,5) perm(3,1,3) perm(2,1,1) perm(1,1,2) perm(5,1,5) perm(4,1,4) perm(3,3,3) perm(5,2,5)
-%Answer: 5
-%perm(1,3,1) perm(2,4,1) perm(3,2,1) perm(1,4,4) perm(3,4,5) perm(4,4,2) perm(5,4,3) perm(4,2,4) perm(1,2,3) perm(2,2,2) perm(2,3,3) perm(4,3,2) perm(5,3,5) perm(3,1,2) perm(2,1,1) perm(1,1,3) perm(5,1,5) perm(4,1,4) perm(3,3,4) perm(5,2,5)
-%Answer: 6
-%perm(1,3,1) perm(2,4,1) perm(3,2,1) perm(1,4,4) perm(3,4,5) perm(4,4,2) perm(5,4,3) perm(4,2,4) perm(1,2,3) perm(2,2,2) perm(2,3,3) perm(4,3,2) perm(5,3,5) perm(3,1,3) perm(2,1,1) perm(1,1,2) perm(5,1,5) perm(4,1,4) perm(3,3,4) perm(5,2,5)
-%Answer: 7
-%perm(1,3,1) perm(2,4,1) perm(3,2,1) perm(1,4,4) perm(3,4,5) perm(4,4,3) perm(5,4,2) perm(4,2,4) perm(1,2,3) perm(2,2,2) perm(2,3,5) perm(4,3,2) perm(5,3,4) perm(3,1,2) perm(2,1,1) perm(1,1,3) perm(5,1,5) perm(4,1,4) perm(3,3,3) perm(5,2,5)
-%Answer: 8
-%perm(1,3,1) perm(2,4,1) perm(3,2,1) perm(1,4,4) perm(3,4,5) perm(4,4,3) perm(5,4,2) perm(4,2,4) perm(1,2,3) perm(2,2,2) perm(2,3,5) perm(4,3,2) perm(5,3,4) perm(3,1,3) perm(2,1,1) perm(1,1,2) perm(5,1,5) perm(4,1,4) perm(3,3,3) perm(5,2,5)

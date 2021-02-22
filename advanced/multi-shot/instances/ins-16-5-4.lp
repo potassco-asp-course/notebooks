@@ -41,23 +41,5 @@ sequence(5,3,1).
 sequence(5,4,2).
 
 
-%
-% Permutation Flow Shop Problem
-%
-%Answer: 1
-%perm(4,1) perm(1,5) perm(2,2) perm(3,4) perm(5,3)
-%Answer: 2
-%perm(4,1) perm(1,4) perm(2,2) perm(3,5) perm(5,3)
 
 
-%
-% Job Shop Problem
-%
-%Answer: 1
-%perm(1,3,1) perm(4,1,1) perm(2,3,4) perm(3,3,3) perm(4,3,5) perm(5,1,3) perm(1,1,2) perm(2,1,5) perm(3,1,4) perm(5,3,2) perm(3,4,5) perm(1,4,1) perm(5,4,3) perm(3,2,2) perm(2,4,2) perm(4,4,4) perm(5,2,4) perm(1,2,1) perm(2,2,3) perm(4,2,5)
-%Answer: 2
-%perm(1,3,1) perm(2,3,4) perm(3,3,3) perm(4,3,5) perm(5,1,3) perm(1,1,1) perm(2,1,5) perm(3,1,4) perm(5,3,2) perm(3,4,5) perm(1,4,1) perm(5,4,3) perm(3,2,2) perm(2,4,2) perm(4,4,4) perm(5,2,4) perm(1,2,1) perm(4,1,2) perm(2,2,3) perm(4,2,5)
-%Answer: 3
-%perm(1,3,1) perm(2,4,1) perm(4,1,1) perm(2,3,4) perm(3,3,3) perm(4,3,5) perm(5,1,3) perm(1,1,2) perm(2,1,5) perm(3,1,4) perm(5,3,2) perm(3,4,5) perm(1,4,2) perm(5,4,3) perm(3,2,2) perm(4,4,4) perm(5,2,4) perm(1,2,1) perm(2,2,3) perm(4,2,5)
-%Answer: 4
-%perm(1,3,1) perm(2,4,1) perm(4,1,1) perm(2,3,3) perm(3,3,4) perm(4,3,5) perm(5,1,3) perm(1,1,2) perm(2,1,5) perm(3,1,4) perm(5,3,2) perm(3,4,5) perm(1,4,2) perm(5,4,3) perm(3,2,3) perm(4,4,4) perm(5,2,4) perm(1,2,1) perm(2,2,2) perm(4,2,5)
