@@ -35,3 +35,7 @@ sequence(4,4,3).
 
 
 
+
+
+%Answer:
+%perm(1,1,4) perm(1,2,3) perm(1,3,1) perm(1,4,2) perm(2,1,2) perm(2,2,2) perm(2,3,2) perm(2,4,4) perm(3,1,1) perm(3,2,4) perm(3,3,4) perm(3,4,3) perm(4,1,3) perm(4,2,1) perm(4,3,3) perm(4,4,1)

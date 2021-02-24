@@ -15,3 +15,7 @@ sequence(3,2,2).
 
 
 
+
+
+%Answer:
+%perm(1,1,1) perm(1,2,2) perm(2,1,3) perm(2,2,1) perm(3,1,2) perm(3,2,3)

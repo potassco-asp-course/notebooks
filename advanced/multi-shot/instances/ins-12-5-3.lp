@@ -33,3 +33,7 @@ sequence(5,3,3).
 
 
 
+
+
+%Answer:
+%perm(1,1,4) perm(1,2,4) perm(1,3,2) perm(2,1,5) perm(2,2,1) perm(2,3,4) perm(3,1,3) perm(3,2,3) perm(3,3,1) perm(4,1,1) perm(4,2,5) perm(4,3,5) perm(5,1,2) perm(5,2,2) perm(5,3,3)
