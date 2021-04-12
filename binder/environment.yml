@@ -8,4 +8,6 @@ dependencies:
   - python=3.9
   - ipython=7.19
   - clingo=5.5
+  - clingcon=5.0.0
+  - clingo-dl=1.2.0
 
