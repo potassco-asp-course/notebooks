@@ -1,21 +1,14 @@
 import sys
+import shutil
 from subprocess import run, PIPE, TimeoutExpired
 import os
 import tempfile
 import json
 import time
+import argparse
 
-
-CLINGO = "/usr/share/miniconda/bin/clingo"
-INSTANCES = "asp/instances/"
-REF_ENC = "checker.lp"
-DUMMY = "dummy.lp"
-SOLUS = "925"
-SOLUTIONS = "asp/solutions/"
-
-
-def call_clingo(input_names, timeout):
-    cmd = [CLINGO, "--warn=no-atom-undefined", "--warn=no-file-included", "--warn=no-operation-undefined", "--warn=no-variable-unbounded", "--warn=no-global-variable", "--outf=2"] + input_names
+def call_clingo(clingo, input_names, timeout):
+    cmd = [clingo, "--warn=no-atom-undefined", "--warn=no-file-included", "--warn=no-operation-undefined", "--warn=no-variable-unbounded", "--warn=no-global-variable", "--outf=2"] + input_names
     start = time.time()
     output = run(cmd, stdout=PIPE, stderr=PIPE, timeout=timeout)
     end = time.time()
@@ -30,13 +23,15 @@ def check_result(output, expected):
         solutions = [w['Value'] for w in output['Call'][len(output['Call'])-1]['Witnesses']]
     return result.startswith(expected), solutions
 
-def test(enc, inst, timeout, expected, opt):
-    # check if encoding result is as expected
+def test_instance(args,instance):
+    if args.optimize:
+        expected = "OPT"
+        opt = [args.encoding, args.instances+instance, args.dummy+"dummy.lp"]
+    else:
+        expected = "SAT"
+        opt = [args.encoding, args.instances+instance, "925"]
     try:
-        if expected == 'SAT':
-            stdout, time = call_clingo([enc, INSTANCES+inst, SOLUS], timeout)
-        else:
-            stdout, time = call_clingo([enc, INSTANCES+inst, DUMMY], timeout)
+        stdout, time = call_clingo(args.clingo, opt, args.timeout)
         output = json.loads(stdout)
     except RuntimeError as e:
         raise e
@@ -44,72 +39,33 @@ def test(enc, inst, timeout, expected, opt):
     if not ok:
         return False, time
 
-    # succeed if expected UNSAT
-    if expected == 'UNSAT':
-        return True, time
-
     for s in solutions:
         s.sort()
-    solutions.sort()
 
-    # check solutions if expected SAT
-    if expected == 'SAT':
-        inst_sol = inst[:-2]+"json"
-        with open(SOLUTIONS+inst_sol,"r") as infile:
-            output = json.load(infile)
-        ok, ref_solutions = check_result(output, expected)
-        for s in ref_solutions:
-            s.sort()
-        ref_solutions.sort()
+    inst_sol = instance[:-2]+"json"
+    with open(args.solutions+inst_sol,"r") as infile:
+        output = json.load(infile)
+    ok, ref_solutions = check_result(output, expected)
+    for s in ref_solutions:
+        s.sort()
+    ref_solutions.sort()
+    if args.optimize:
+        return solutions[-1] in ref_solutions, time
+    else:
+        solutions.sort()
         return solutions == ref_solutions, time
 
-    # check optimal solution
-    if expected == 'OPT':
-        with tempfile.NamedTemporaryFile(mode="w",prefix="Extended", dir=".") as exts:
-            exts.write("{}\n".format("".join([atom+"." for atom in solutions[-1]])))
-            exts.flush()
-            stdout, dump = call_clingo([REF_ENC, exts.name, INSTANCES+inst],timeout)
-        output = json.loads(stdout)
-        ok, ref_solutions = check_result(output, 'SAT')
-        if not ok:
-            return False, time
-        found_opt = True
-        opt_name = opt.split("(",1)[0]
-        for atom in ref_solutions[0]:
-            if atom.startswith(opt_name):
-                if atom == opt:
-                    found_opt
-                else:
-                    return False, time
-        return found_opt, time
-
-def main():
-    # check input
-    if len(sys.argv) < 4:
-        raise RuntimeError("not enough arguments (%d instead of 3)" % (len(sys.argv) - 1))
-    enc, timeout, expected = sys.argv[1:4]
-    timeout = int(timeout)
-    for f in [enc]:
-        if not os.path.isfile(f):
-            raise IOError("file %s not found!" % f)
-
-    opt = None
-    if expected == 'OPT':
-        if len(sys.argv) < 5:
-            raise RuntimeError("optimum missing")
-        opt = sys.argv[4]
-
-    dir = os.listdir(INSTANCES)
-    dir.sort()
-    success = True
-
-    message = ""
+def test(args):
     #loop over all instances
-    for inst in dir:
+    instances_dir= os.listdir(args.instances)
+    instances_dir.sort()
+    success = True
+    message = ""
+    for instance in instances_dir:
         result = 0
         error = False
         try:
-            res, time = test(enc, inst, timeout, expected, opt)
+            res, time = test_instance(args, instance)
             if not res:
                 success = False
         except Exception as e:
@@ -119,7 +75,7 @@ def main():
             else:
                 result = "error\n"
                 error = e
-        message += "$"+inst+ ": "
+        message += "$"+instance+ ": "
         if result:
             message += result
             if error:
@@ -129,9 +85,46 @@ def main():
             message += " in "+str(1000*time)[:7]+" ms\n"
     return success, message
 
-if __name__ == '__main__':
+def parse():
+    parser = argparse.ArgumentParser(
+        description="Test ASP encodings"
+    )
+    parser.add_argument('--encoding', '-e', metavar='<file>',
+                        help='ASP encoding to test', required=True)
+    parser.add_argument('--timeout', '-t', metavar='N', type=int,
+                        help='Time allocated to each instance', required=True)
+    parser.add_argument('--instances', '-i', metavar='<path>',
+                        help='Directory of the instances', default="asp/instances/", required=False)
+    parser.add_argument('--solutions', '-s', metavar='<path>',
+                        help='Directory of the solutions', default="asp/solutions/", required=False)
+    parser.add_argument('--clingo', '-c', metavar='<path>',
+                        help='Clingo to use', default="clingo", required=False)
+    parser.add_argument('--optimize', '-opt', action='store_const', const=True,
+                        help='Use this option for optimization problems', default=False, required=False)
+    parser.add_argument('--dummy', '-d', metavar='<dir>',
+                        help='Path to dummy.lp. Necessary for optimization problems',
+                        default="asp/", required=False)
+    args = parser.parse_args()
+    if shutil.which(args.clingo) is None:
+        raise IOError("file %s not found!" % args.clingo)
+    if not os.path.isfile(args.encoding):
+        raise IOError("file %s not found!" % args.encoding)
+    if not os.path.isdir(args.instances):
+        raise IOError("directory %s not found!" % args.instances)
+    if not os.path.isdir(args.solutions):
+        raise IOError("directory %s not found!" % args.solutions)
+    if args.instances[-1] != "/":
+        args.instances+="/"
+    if args.solutions[-1] != "/":
+        args.solutions+="/"
+    return args
+
+def main():
+    if sys.version_info < (3, 5):
+        raise SystemExit('Sorry, this code need Python 3.5 or higher')
     try:
-        success, message = main()
+        args=parse()
+        success, message = test(args)
         if success:
             message += "SUCCESS\n"
         else:
@@ -139,4 +132,7 @@ if __name__ == '__main__':
         sys.stdout.write(message)
     except Exception as e:
         sys.stderr.write("ERROR: %s\n" % str(e))
-        exit(1)
+        return 1
+
+if __name__ == '__main__':
+    sys.exit(main())
