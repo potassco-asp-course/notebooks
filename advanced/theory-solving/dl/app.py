@@ -383,7 +383,7 @@ class DLApp(Application):
         for symbol in model.symbols(theory=True):
             if symbol.match("dl", 2):
                 n, v = symbol.arguments
-                if n.match("bound", 0):
+                if n == self._minimize:
                     self._bound = v.number
                     break
 
@@ -403,11 +403,13 @@ class DLApp(Application):
         if self._minimize is None:
             ctl.solve(on_model=self._propagator.on_model)
         else:
-            ctl.add("bound", ["b"], "&diff(head) { bound-0 } <= b.")
+            ctl.add("bound", ["b", "v"], "&diff(head) { v-0 } <= b.")
 
             while cast(SolveResult, ctl.solve(on_model=self._on_model)).satisfiable:
                 print("Found new bound: {}".format(self._bound))
-                ctl.ground([("bound", [Number(cast(int, self._bound) - 1)])])
+                if self._bound is None:
+                    break
+                ctl.ground([("bound", [Number(cast(int, self._bound) - 1), self._minimize])])
 
             if self._bound is not None:
                 print("Optimum found")
