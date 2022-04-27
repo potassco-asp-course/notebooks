@@ -1,0 +1,103 @@
+{
+ "Solver": "clingo version 5.4.0",
+ "Input": [
+  "flowshop.lp",
+  "instances/ins-14-5-4.lp"
+ ],
+ "Call": [
+  {
+   "Witnesses": [
+    {
+     "Value": [
+      "perm(4,1)",
+      "perm(1,2)",
+      "perm(2,5)",
+      "perm(3,4)",
+      "perm(5,3)"
+     ],
+     "Costs": [
+      54
+     ]
+    },
+    {
+     "Value": [
+      "perm(3,1)",
+      "perm(1,2)",
+      "perm(2,5)",
+      "perm(4,4)",
+      "perm(5,3)"
+     ],
+     "Costs": [
+      54
+     ]
+    },
+    {
+     "Value": [
+      "perm(3,1)",
+      "perm(1,2)",
+      "perm(2,5)",
+      "perm(4,3)",
+      "perm(5,4)"
+     ],
+     "Costs": [
+      54
+     ]
+    },
+    {
+     "Value": [
+      "perm(4,1)",
+      "perm(1,2)",
+      "perm(2,5)",
+      "perm(3,3)",
+      "perm(5,4)"
+     ],
+     "Costs": [
+      54
+     ]
+    },
+    {
+     "Value": [
+      "perm(3,1)",
+      "perm(1,2)",
+      "perm(2,4)",
+      "perm(4,3)",
+      "perm(5,5)"
+     ],
+     "Costs": [
+      54
+     ]
+    },
+    {
+     "Value": [
+      "perm(4,1)",
+      "perm(1,2)",
+      "perm(2,4)",
+      "perm(3,3)",
+      "perm(5,5)"
+     ],
+     "Costs": [
+      54
+     ]
+    }
+   ]
+  }
+ ],
+ "Result": "OPTIMUM FOUND",
+ "Models": {
+  "Number": 8,
+  "More": "no",
+  "Optimum": "yes",
+  "Optimal": 6,
+  "Costs": [
+   54
+  ]
+ },
+ "Calls": 1,
+ "Time": {
+  "Total": 0.585,
+  "Solve": 0.075,
+  "Model": 0.011,
+  "Unsat": 0.01,
+  "CPU": 0.583
+ }
+}

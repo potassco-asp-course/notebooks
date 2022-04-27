@@ -1,0 +1,151 @@
+{
+ "Solver": "clingo version 5.4.0",
+ "Input": [
+  "flowshop.lp",
+  "instances/ins-09-5-3.lp"
+ ],
+ "Call": [
+  {
+   "Witnesses": [
+    {
+     "Value": [
+      "perm(4,1)",
+      "perm(1,4)",
+      "perm(2,3)",
+      "perm(3,2)",
+      "perm(5,5)"
+     ],
+     "Costs": [
+      28
+     ]
+    },
+    {
+     "Value": [
+      "perm(3,1)",
+      "perm(1,4)",
+      "perm(2,3)",
+      "perm(4,2)",
+      "perm(5,5)"
+     ],
+     "Costs": [
+      28
+     ]
+    },
+    {
+     "Value": [
+      "perm(5,1)",
+      "perm(1,5)",
+      "perm(2,4)",
+      "perm(3,2)",
+      "perm(4,3)"
+     ],
+     "Costs": [
+      28
+     ]
+    },
+    {
+     "Value": [
+      "perm(4,1)",
+      "perm(1,5)",
+      "perm(2,3)",
+      "perm(3,2)",
+      "perm(5,4)"
+     ],
+     "Costs": [
+      28
+     ]
+    },
+    {
+     "Value": [
+      "perm(4,1)",
+      "perm(1,5)",
+      "perm(2,4)",
+      "perm(3,2)",
+      "perm(5,3)"
+     ],
+     "Costs": [
+      28
+     ]
+    },
+    {
+     "Value": [
+      "perm(3,1)",
+      "perm(1,5)",
+      "perm(2,4)",
+      "perm(4,3)",
+      "perm(5,2)"
+     ],
+     "Costs": [
+      28
+     ]
+    },
+    {
+     "Value": [
+      "perm(4,1)",
+      "perm(1,5)",
+      "perm(2,4)",
+      "perm(3,3)",
+      "perm(5,2)"
+     ],
+     "Costs": [
+      28
+     ]
+    },
+    {
+     "Value": [
+      "perm(5,1)",
+      "perm(1,5)",
+      "perm(2,4)",
+      "perm(3,3)",
+      "perm(4,2)"
+     ],
+     "Costs": [
+      28
+     ]
+    },
+    {
+     "Value": [
+      "perm(3,1)",
+      "perm(1,5)",
+      "perm(2,4)",
+      "perm(4,2)",
+      "perm(5,3)"
+     ],
+     "Costs": [
+      28
+     ]
+    },
+    {
+     "Value": [
+      "perm(3,1)",
+      "perm(1,5)",
+      "perm(2,3)",
+      "perm(4,2)",
+      "perm(5,4)"
+     ],
+     "Costs": [
+      28
+     ]
+    }
+   ]
+  }
+ ],
+ "Result": "OPTIMUM FOUND",
+ "Models": {
+  "Number": 14,
+  "More": "no",
+  "Optimum": "yes",
+  "Optimal": 10,
+  "Costs": [
+   28
+  ]
+ },
+ "Calls": 1,
+ "Time": {
+  "Total": 0.126,
+  "Solve": 0.02,
+  "Model": 0.003,
+  "Unsat": 0.001,
+  "CPU": 0.126
+ }
+}
