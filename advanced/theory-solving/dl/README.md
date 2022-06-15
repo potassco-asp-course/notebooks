@@ -1,4 +1,7 @@
-This example implements a scaled down version of clingo-dl.
+This example implements a scaled down version of clingo-dl supporting
+constraints of the following form:
+
+    &diff{u-v} <= d :- [rule body].
 
 Examples
 ========
