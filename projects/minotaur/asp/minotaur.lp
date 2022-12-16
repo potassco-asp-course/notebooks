@@ -21,4 +21,4 @@
 % Display
 %
 
-#show at/2.
+#show at/3.
