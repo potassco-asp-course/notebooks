@@ -1,0 +1,35 @@
+{
+  "Solver": "clingo version 5.5.1",
+  "Input": [
+    "tree.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "edge(3,4)", "edge(3,5)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "edge(2,4)", "edge(2,5)"
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 2,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.001,
+    "Solve": 0.000,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.001
+  }
+}

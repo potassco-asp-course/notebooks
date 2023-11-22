@@ -1,0 +1,45 @@
+{
+  "Solver": "clingo version 5.6.2",
+  "Input": [
+    "decision-trees.lp","instances/instance-24-09.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,13)", "decision(2,11)", "decision(3,8)", "decision(6,22)", "edge(2,4)", "edge(3,6)", "edge(6,8)", "edge(2,5)", "edge(3,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,13)", "decision(2,11)", "decision(3,22)", "decision(6,8)", "edge(2,4)", "edge(3,6)", "edge(6,8)", "edge(2,5)", "edge(3,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,13)", "decision(5,22)", "decision(6,8)", "edge(2,4)", "edge(5,6)", "edge(6,8)", "edge(2,5)", "edge(5,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,13)", "decision(5,8)", "decision(6,22)", "edge(2,4)", "edge(5,6)", "edge(6,8)", "edge(2,5)", "edge(5,7)", "edge(6,9)"
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 4,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.026,
+    "Solve": 0.016,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.026
+  }
+}

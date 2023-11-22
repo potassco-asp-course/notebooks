@@ -1,0 +1,24 @@
+{
+  "Solver": "clingo version 5.6.2",
+  "Input": [
+    "decision-trees.lp","instances/instance-28-09.lp"
+  ],
+  "Call": [
+    {
+
+    }
+  ],
+  "Result": "UNSATISFIABLE",
+  "Models": {
+    "Number": 0,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.023,
+    "Solve": 0.012,
+    "Model": 0.000,
+    "Unsat": 0.012,
+    "CPU": 0.023
+  }
+}

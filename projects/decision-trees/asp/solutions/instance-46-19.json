@@ -1,0 +1,55 @@
+{
+  "Solver": "clingo version 5.6.2",
+  "Input": [
+    "decision-trees.lp","instances/instance-46-19.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(11)", "positive(15)", "positive(17)", "positive(19)", "decision(1,5)", "decision(2,16)", "decision(3,13)", "decision(4,21)", "decision(6,6)", "decision(8,13)", "decision(9,22)", "decision(12,7)", "decision(13,8)", "edge(2,4)", "edge(3,6)", "edge(4,8)", "edge(6,10)", "edge(8,12)", "edge(9,14)", "edge(12,16)", "edge(13,18)", "edge(2,5)", "edge(3,7)", "edge(4,9)", "edge(6,11)", "edge(8,13)", "edge(9,15)", "edge(12,17)", "edge(13,19)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(11)", "positive(15)", "positive(17)", "positive(19)", "decision(1,5)", "decision(2,16)", "decision(3,6)", "decision(4,21)", "decision(6,13)", "decision(8,13)", "decision(9,22)", "decision(12,7)", "decision(13,8)", "edge(2,4)", "edge(3,6)", "edge(4,8)", "edge(6,10)", "edge(8,12)", "edge(9,14)", "edge(12,16)", "edge(13,18)", "edge(2,5)", "edge(3,7)", "edge(4,9)", "edge(6,11)", "edge(8,13)", "edge(9,15)", "edge(12,17)", "edge(13,19)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(11)", "positive(13)", "positive(15)", "positive(19)", "decision(1,5)", "decision(2,16)", "decision(3,13)", "decision(4,21)", "decision(6,6)", "decision(8,7)", "decision(9,22)", "decision(12,13)", "decision(17,8)", "edge(2,4)", "edge(3,6)", "edge(4,8)", "edge(6,10)", "edge(8,12)", "edge(9,14)", "edge(12,16)", "edge(17,18)", "edge(2,5)", "edge(3,7)", "edge(4,9)", "edge(6,11)", "edge(8,13)", "edge(9,15)", "edge(12,17)", "edge(17,19)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(11)", "positive(13)", "positive(15)", "positive(19)", "decision(1,5)", "decision(2,16)", "decision(3,6)", "decision(4,21)", "decision(6,13)", "decision(8,7)", "decision(9,22)", "decision(12,13)", "decision(17,8)", "edge(2,4)", "edge(3,6)", "edge(4,8)", "edge(6,10)", "edge(8,12)", "edge(9,14)", "edge(12,16)", "edge(17,18)", "edge(2,5)", "edge(3,7)", "edge(4,9)", "edge(6,11)", "edge(8,13)", "edge(9,15)", "edge(12,17)", "edge(17,19)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(11)", "positive(13)", "positive(15)", "positive(19)", "decision(1,5)", "decision(2,16)", "decision(3,13)", "decision(4,21)", "decision(6,6)", "decision(8,7)", "decision(9,22)", "decision(12,8)", "decision(17,13)", "edge(2,4)", "edge(3,6)", "edge(4,8)", "edge(6,10)", "edge(8,12)", "edge(9,14)", "edge(12,16)", "edge(17,18)", "edge(2,5)", "edge(3,7)", "edge(4,9)", "edge(6,11)", "edge(8,13)", "edge(9,15)", "edge(12,17)", "edge(17,19)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(11)", "positive(13)", "positive(15)", "positive(19)", "decision(1,5)", "decision(2,16)", "decision(3,6)", "decision(4,21)", "decision(6,13)", "decision(8,7)", "decision(9,22)", "decision(12,8)", "decision(17,13)", "edge(2,4)", "edge(3,6)", "edge(4,8)", "edge(6,10)", "edge(8,12)", "edge(9,14)", "edge(12,16)", "edge(17,18)", "edge(2,5)", "edge(3,7)", "edge(4,9)", "edge(6,11)", "edge(8,13)", "edge(9,15)", "edge(12,17)", "edge(17,19)"
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 6,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 2.794,
+    "Solve": 2.754,
+    "Model": 1.904,
+    "Unsat": 0.849,
+    "CPU": 2.794
+  }
+}

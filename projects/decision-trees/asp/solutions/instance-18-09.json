@@ -1,0 +1,260 @@
+{
+  "Solver": "clingo version 5.6.2",
+  "Input": [
+    "decision-trees.lp","instances/instance-18-09.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,13)", "decision(2,11)", "decision(3,4)", "decision(6,8)", "edge(2,4)", "edge(3,6)", "edge(6,8)", "edge(2,5)", "edge(3,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,13)", "decision(2,11)", "decision(3,22)", "decision(6,8)", "edge(2,4)", "edge(3,6)", "edge(6,8)", "edge(2,5)", "edge(3,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,13)", "decision(2,11)", "decision(3,8)", "decision(6,22)", "edge(2,4)", "edge(3,6)", "edge(6,8)", "edge(2,5)", "edge(3,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,13)", "decision(2,11)", "decision(3,8)", "decision(6,4)", "edge(2,4)", "edge(3,6)", "edge(6,8)", "edge(2,5)", "edge(3,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,13)", "decision(2,11)", "decision(3,9)", "decision(6,8)", "edge(2,4)", "edge(3,6)", "edge(6,8)", "edge(2,5)", "edge(3,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,13)", "decision(2,11)", "decision(3,14)", "decision(6,8)", "edge(2,4)", "edge(3,6)", "edge(6,8)", "edge(2,5)", "edge(3,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,13)", "decision(2,11)", "decision(3,16)", "decision(6,8)", "edge(2,4)", "edge(3,6)", "edge(6,8)", "edge(2,5)", "edge(3,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,13)", "decision(2,11)", "decision(3,16)", "decision(6,3)", "edge(2,4)", "edge(3,6)", "edge(6,8)", "edge(2,5)", "edge(3,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,13)", "decision(2,11)", "decision(3,8)", "decision(6,9)", "edge(2,4)", "edge(3,6)", "edge(6,8)", "edge(2,5)", "edge(3,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,13)", "decision(2,11)", "decision(3,8)", "decision(6,14)", "edge(2,4)", "edge(3,6)", "edge(6,8)", "edge(2,5)", "edge(3,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,13)", "decision(2,11)", "decision(3,8)", "decision(6,16)", "edge(2,4)", "edge(3,6)", "edge(6,8)", "edge(2,5)", "edge(3,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,13)", "decision(2,11)", "decision(3,3)", "decision(6,16)", "edge(2,4)", "edge(3,6)", "edge(6,8)", "edge(2,5)", "edge(3,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(6)", "positive(8)", "decision(1,22)", "decision(2,8)", "decision(3,5)", "decision(5,4)", "edge(2,4)", "edge(3,6)", "edge(5,8)", "edge(2,5)", "edge(3,7)", "edge(5,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(6)", "positive(9)", "decision(1,22)", "decision(2,4)", "decision(3,5)", "decision(4,8)", "edge(2,4)", "edge(3,6)", "edge(4,8)", "edge(2,5)", "edge(3,7)", "edge(4,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,4)", "decision(2,8)", "decision(3,22)", "decision(4,11)", "edge(2,4)", "edge(3,6)", "edge(4,8)", "edge(2,5)", "edge(3,7)", "edge(4,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,4)", "decision(2,8)", "decision(3,13)", "decision(4,11)", "edge(2,4)", "edge(3,6)", "edge(4,8)", "edge(2,5)", "edge(3,7)", "edge(4,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,4)", "decision(2,11)", "decision(3,22)", "decision(4,8)", "edge(2,4)", "edge(3,6)", "edge(4,8)", "edge(2,5)", "edge(3,7)", "edge(4,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,4)", "decision(2,11)", "decision(3,13)", "decision(4,8)", "edge(2,4)", "edge(3,6)", "edge(4,8)", "edge(2,5)", "edge(3,7)", "edge(4,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,3)", "decision(2,16)", "decision(3,13)", "decision(4,11)", "edge(2,4)", "edge(3,6)", "edge(4,8)", "edge(2,5)", "edge(3,7)", "edge(4,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(5)", "positive(7)", "positive(9)", "decision(1,3)", "decision(2,11)", "decision(3,13)", "decision(4,16)", "edge(2,4)", "edge(3,6)", "edge(4,8)", "edge(2,5)", "edge(3,7)", "edge(4,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(5)", "positive(9)", "decision(1,16)", "decision(2,11)", "decision(4,3)", "decision(7,13)", "edge(2,4)", "edge(4,6)", "edge(7,8)", "edge(2,5)", "edge(4,7)", "edge(7,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(5)", "positive(9)", "decision(1,16)", "decision(2,11)", "decision(4,8)", "decision(7,13)", "edge(2,4)", "edge(4,6)", "edge(7,8)", "edge(2,5)", "edge(4,7)", "edge(7,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(5)", "positive(9)", "decision(1,16)", "decision(2,11)", "decision(4,13)", "decision(7,8)", "edge(2,4)", "edge(4,6)", "edge(7,8)", "edge(2,5)", "edge(4,7)", "edge(7,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(5)", "positive(9)", "decision(1,16)", "decision(2,11)", "decision(4,13)", "decision(7,3)", "edge(2,4)", "edge(4,6)", "edge(7,8)", "edge(2,5)", "edge(4,7)", "edge(7,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,16)", "decision(2,13)", "decision(4,11)", "decision(5,8)", "edge(2,4)", "edge(4,6)", "edge(5,8)", "edge(2,5)", "edge(4,7)", "edge(5,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,16)", "decision(2,3)", "decision(4,11)", "decision(5,13)", "edge(2,4)", "edge(4,6)", "edge(5,8)", "edge(2,5)", "edge(4,7)", "edge(5,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,16)", "decision(2,13)", "decision(4,11)", "decision(5,3)", "edge(2,4)", "edge(4,6)", "edge(5,8)", "edge(2,5)", "edge(4,7)", "edge(5,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(5)", "positive(9)", "decision(1,11)", "decision(2,16)", "decision(4,8)", "decision(7,13)", "edge(2,4)", "edge(4,6)", "edge(7,8)", "edge(2,5)", "edge(4,7)", "edge(7,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(5)", "positive(9)", "decision(1,11)", "decision(2,16)", "decision(4,13)", "decision(7,8)", "edge(2,4)", "edge(4,6)", "edge(7,8)", "edge(2,5)", "edge(4,7)", "edge(7,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(5)", "positive(9)", "decision(1,11)", "decision(2,16)", "decision(4,13)", "decision(7,3)", "edge(2,4)", "edge(4,6)", "edge(7,8)", "edge(2,5)", "edge(4,7)", "edge(7,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(5)", "positive(9)", "decision(1,11)", "decision(2,16)", "decision(4,3)", "decision(7,13)", "edge(2,4)", "edge(4,6)", "edge(7,8)", "edge(2,5)", "edge(4,7)", "edge(7,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,8)", "decision(4,16)", "decision(5,13)", "edge(2,4)", "edge(4,6)", "edge(5,8)", "edge(2,5)", "edge(4,7)", "edge(5,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,3)", "decision(4,16)", "decision(5,13)", "edge(2,4)", "edge(4,6)", "edge(5,8)", "edge(2,5)", "edge(4,7)", "edge(5,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,4)", "decision(4,8)", "decision(5,22)", "edge(2,4)", "edge(4,6)", "edge(5,8)", "edge(2,5)", "edge(4,7)", "edge(5,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,4)", "decision(4,8)", "decision(5,13)", "edge(2,4)", "edge(4,6)", "edge(5,8)", "edge(2,5)", "edge(4,7)", "edge(5,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,13)", "decision(5,4)", "decision(6,8)", "edge(2,4)", "edge(5,6)", "edge(6,8)", "edge(2,5)", "edge(5,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,13)", "decision(5,22)", "decision(6,8)", "edge(2,4)", "edge(5,6)", "edge(6,8)", "edge(2,5)", "edge(5,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,13)", "decision(5,8)", "decision(6,22)", "edge(2,4)", "edge(5,6)", "edge(6,8)", "edge(2,5)", "edge(5,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,13)", "decision(5,8)", "decision(6,9)", "edge(2,4)", "edge(5,6)", "edge(6,8)", "edge(2,5)", "edge(5,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,13)", "decision(5,8)", "decision(6,4)", "edge(2,4)", "edge(5,6)", "edge(6,8)", "edge(2,5)", "edge(5,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,13)", "decision(5,8)", "decision(6,14)", "edge(2,4)", "edge(5,6)", "edge(6,8)", "edge(2,5)", "edge(5,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,13)", "decision(5,8)", "decision(6,16)", "edge(2,4)", "edge(5,6)", "edge(6,8)", "edge(2,5)", "edge(5,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,13)", "decision(5,14)", "decision(6,8)", "edge(2,4)", "edge(5,6)", "edge(6,8)", "edge(2,5)", "edge(5,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,13)", "decision(5,9)", "decision(6,8)", "edge(2,4)", "edge(5,6)", "edge(6,8)", "edge(2,5)", "edge(5,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,13)", "decision(5,16)", "decision(6,8)", "edge(2,4)", "edge(5,6)", "edge(6,8)", "edge(2,5)", "edge(5,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,13)", "decision(5,16)", "decision(6,3)", "edge(2,4)", "edge(5,6)", "edge(6,8)", "edge(2,5)", "edge(5,7)", "edge(6,9)"
+          ]
+        },
+        {
+          "Value": [
+            "edge(1,2)", "edge(1,3)", "positive(3)", "positive(7)", "positive(9)", "decision(1,11)", "decision(2,13)", "decision(5,3)", "decision(6,16)", "edge(2,4)", "edge(5,6)", "edge(6,8)", "edge(2,5)", "edge(5,7)", "edge(6,9)"
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 47,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.020,
+    "Solve": 0.011,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.020
+  }
+}
