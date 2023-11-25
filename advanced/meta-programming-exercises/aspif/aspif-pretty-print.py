@@ -5,12 +5,13 @@ from clingo.backend import HeuristicType
 from clingo.core import TruthValue
 enable_python()
 
-class ObserverStore:
+class AspifSymbolicPrinter:
 
     def __init__(self):
         self._externals = []
         self._heuristics = []
         self._minimizes = []
+        self._output_facts = []
         self._output_atoms = dict()
         self._output_terms = []
         self._projects = []
@@ -30,21 +31,23 @@ class ObserverStore:
         return [(self._update(i),w) for (i,w) in lits]
 
     def print(self):
-        obs = Observer()
+        printer = AspifPrinter()
         for x in self._rules:
-            obs.rule(x[0], self._update_set(x[1]), self._update_set(x[2]))
+            printer.rule(x[0], self._update_set(x[1]), self._update_set(x[2]))
         for x in self._weight_rules:
-            obs.weight_rule(x[0], self._update_set(x[1]), x[2], self._update_weighted(x[3]))
+            printer.weight_rule(x[0], self._update_set(x[1]), x[2], self._update_weighted(x[3]))
         for x in self._externals:
-            obs.external(self._update(x[0]), x[1])
+            printer.external(self._update(x[0]), x[1])
         for x in self._heuristics:
-            obs.heuristic(self._update(x[0]), x[1], x[2], x[3], self._update_set(x[4]))
+            printer.heuristic(self._update(x[0]), x[1], x[2], x[3], self._update_set(x[4]))
         for x in self._minimizes:
-            obs.minimize(x[0], self._update_weighted(x[1]))
+            printer.minimize(x[0], self._update_weighted(x[1]))
+        for x in self._output_facts:
+            print(f"{x}.")
         for x in self._output_terms:
-            obs.output_term(x[0], self._update_set(x[1]))
+            printer.output_term(x[0], self._update_set(x[1]))
         for x in self._projects:
-            obs.project(self._update_set(x))
+            printer.project(self._update_set(x))
 
     def external(self, atom, value):
         self._externals.append((atom, value))
@@ -56,7 +59,10 @@ class ObserverStore:
         self._minimizes.append((priority, literals))
 
     def output_atom(self, symbol, atom):
-        self._output_atoms[atom] = symbol
+        if atom == 0:
+            self._output_facts.append(symbol)
+        else:
+            self._output_atoms[atom] = symbol
 
     def output_term(self, symbol, condition):
         self._output_terms.append((symbol, condition))
@@ -71,7 +77,7 @@ class ObserverStore:
         self._weight_rules.append((choice, head, lower_bound, body))
 
 
-class Observer:
+class AspifPrinter:
 
     _external_values = {
         TruthValue.Free : "free",
@@ -110,7 +116,10 @@ class Observer:
         print(mini)
 
     def output_atom(self, symbol, atom):
-        print(f"#show {symbol} : {atom}.")
+        if atom == 0:
+            print(f"#show {symbol}.")
+        else:
+            print(f"#show {symbol} : {atom}.")
 
     def output_term(self, symbol, condition):
         cond = ", ".join(map(str, condition))
@@ -161,17 +170,17 @@ if __name__ == "__main__":
         sys.exit()
 
     path = sys.argv[1:]
-    obs = Observer()
+    printer = AspifPrinter()
     if len(path)>0 and path[0] == "--text":
         path = sys.argv[2:]
-        obs = ObserverStore()
+        printer = AspifSymbolicPrinter()
 
     ctl = Control()
     for file_ in path:
         ctl.load(file_)
     if not path:
         ctl.load("-")
-    ctl.register_observer(obs)
+    ctl.register_observer(printer)
     ctl.ground([("base", [])])
-    obs.print()
+    printer.print()
 
