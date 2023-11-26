@@ -1,0 +1,7 @@
+?- load example.lp
+
+?- solve
+Model: [b(2)]
+SAT
+
+?- exit

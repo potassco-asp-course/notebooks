@@ -1,0 +1,3 @@
+load example.lp
+solve
+exit
