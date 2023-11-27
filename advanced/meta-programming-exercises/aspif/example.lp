@@ -17,7 +17,7 @@ i :- 1 { e(X); f(X) } 1.
 #show (e(X),f(X),g(X)) : e(X), f(X), g(X).
 
 % #show h/0. #show i/0.
-% #minimize{ 1,X@3 : e(X); 2,X@3 : f(X); 3,X : g(X)}.
+% #minimize{ 1@3,X : e(X); 2@3,X : f(X); 3,X : g(X)}.
 % #external j. [true]
 % #heuristic e(X) : c(X). [1,level]
 % #project e/1.
