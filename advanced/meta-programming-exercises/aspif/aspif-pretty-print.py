@@ -99,13 +99,13 @@ class AspifPrinter:
         pass
 
     def external(self, atom, value):
-        print(f"#external {atom}. [{Observer._external_values[value]}]")
+        print(f"#external {atom}. [{AspifPrinter._external_values[value]}]")
 
     def heuristic(self, atom, type_, bias, priority, condition):
         heur = f"#heuristic {atom}"
         if len(condition):
             heur += " : " + ", ".join(map(str,condition))
-        mode = Observer._heuristic_values[type_]
+        mode = AspifPrinter._heuristic_values[type_]
         heur += f". [{bias}@{priority},{mode}]"
         print(heur)
 
@@ -165,7 +165,7 @@ if __name__ == "__main__":
 
     if sys.argv[1] == "--help":
         print("""
-    Run:\n  python observer.py [--text] <files>
+    Run:\n  python aspif-pretty-print.py [--text] <files>
     """)
         sys.exit()
 
