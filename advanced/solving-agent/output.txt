@@ -2,10 +2,10 @@ symbol          is_fact         is_external     program_literal solver_literal
 ------------------------------------------------------------------------------
 dom(1)          True            False           1               1
 dom(2)          True            False           2               1
-a(1,1)          False           False           3               2
-a(2,1)          False           False           4               3
-a(1,2)          False           False           5               4
-a(2,2)          False           False           6               5
+a(1)            False           False           5               4
+a(2)            False           False           6               5
+b(1)            False           False           3               2
+b(2)            False           False           4               3
 
 Assignment: 
   decision_level: 0
@@ -16,12 +16,11 @@ Assignment:
 
 dom(1)_dom(2) (P)
 Solving...
-a(1,1) a(2,1) a(1,2) a(2,2) ? a(1,1)
-  a(1,1) a(1,2) (P)
-a(2,1) a(2,2) ? a(2,2)
-    a(2,2) a(2,1) (P)
-    a(2,2) a(2,1) (C)
+b(1) b(2) a(1) a(2) ? a(1)
+  a(1) b(1) (P)
+b(2) a(2) ? a(2)
+    a(2) b(2) (P)
+    a(2) b(2) (C)
 Answer: 1
-dom(1) dom(2) a(1,1) a(2,1) a(1,2) a(2,2)
+dom(1) dom(2) b(1) b(2) a(1) a(2)
 SATISFIABLE
-
