@@ -1,7 +1,7 @@
 import sys
 from clingo.application import clingo_main, Application
 from clingo.propagator import Propagator
-from aspif.aspif import AspifPrinter, AspifSymbolicPrinter
+from aspif.aspif_pretty_printer import AspifPrinter, AspifSymbolicPrinter
 
 class SolvingAgent(Propagator):
 
