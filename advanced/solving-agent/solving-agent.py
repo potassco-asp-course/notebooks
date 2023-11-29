@@ -14,6 +14,7 @@ class SolvingAgent(Propagator):
         # add watches
         # print info for each symbolic atom
         # print initial assignment object
+        pass
 
     def _print_current_level(self, assignment):
         # print current level
