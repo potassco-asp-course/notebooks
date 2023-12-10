@@ -1,0 +1,82 @@
+{
+ "Solver": "clingo version 5.6.2",
+ "Input": [
+  "asp/lightbulb.lp",
+  "asp/instances/instance18.lp"
+ ],
+ "Call": [
+  {
+   "Witnesses": [
+    {
+     "Value": [
+      "light(1,1)",
+      "light(5,1)",
+      "light(8,1)",
+      "light(12,1)",
+      "light(4,2)",
+      "light(2,3)",
+      "light(10,3)",
+      "light(13,3)",
+      "light(16,3)",
+      "light(4,4)",
+      "light(6,4)",
+      "light(9,4)",
+      "light(15,4)",
+      "light(17,4)",
+      "light(7,5)",
+      "light(11,5)",
+      "light(16,5)",
+      "light(2,6)",
+      "light(8,6)",
+      "light(14,6)",
+      "light(5,7)",
+      "light(17,7)",
+      "light(3,8)",
+      "light(13,8)",
+      "light(2,9)",
+      "light(11,9)",
+      "light(16,9)",
+      "light(1,10)",
+      "light(6,10)",
+      "light(15,10)",
+      "light(3,11)",
+      "light(9,11)",
+      "light(16,11)",
+      "light(2,12)",
+      "light(14,12)",
+      "light(6,13)",
+      "light(10,13)",
+      "light(4,14)",
+      "light(7,14)",
+      "light(11,14)",
+      "light(15,14)",
+      "light(17,14)",
+      "light(3,15)",
+      "light(5,15)",
+      "light(9,15)",
+      "light(12,15)",
+      "light(4,16)",
+      "light(1,17)",
+      "light(8,17)",
+      "light(10,17)",
+      "light(13,17)",
+      "light(16,17)"
+     ]
+    }
+   ]
+  }
+ ],
+ "Result": "SATISFIABLE",
+ "Models": {
+  "Number": 1,
+  "More": "no"
+ },
+ "Calls": 1,
+ "Time": {
+  "Total": 0.018,
+  "Solve": 0.0,
+  "Model": 0.0,
+  "Unsat": 0.0,
+  "CPU": 0.018
+ }
+}
