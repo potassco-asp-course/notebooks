@@ -1,0 +1,46 @@
+{
+  "Solver": "clingo version 5.6.2",
+  "Input": [
+    "myrobots.lp","instances/corridor-01.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "at(r1,1,0)", "at(r2,5,0)", "assign(r1,j1,1)", "assign(r2,j2,1)", "at(r1,1,1)", "at(r1,5,5)", "at(r2,1,6)", "at(r2,5,10)", "at(r1,1,11)", "at(r2,5,11)", "at(r1,2,2)", "at(r1,3,3)", "at(r1,4,4)", "at(r1,4,6)", "at(r1,3,7)", "at(r1,6,8)", "at(r1,3,9)", "at(r1,2,10)", "at(r2,3,2)", "at(r2,4,1)", "at(r2,6,3)", "at(r2,3,4)", "at(r2,2,5)", "at(r2,2,7)", "at(r2,3,8)", "at(r2,4,9)"
+          ],
+          "Costs": [
+            20
+          ]
+        },
+        {
+          "Value": [
+            "at(r1,1,0)", "at(r2,5,0)", "assign(r1,j1,1)", "assign(r2,j2,1)", "at(r1,5,5)", "at(r2,1,6)", "at(r2,5,10)", "at(r1,1,11)", "at(r2,5,11)", "at(r1,2,1)", "at(r1,2,2)", "at(r1,3,3)", "at(r1,4,4)", "at(r1,4,6)", "at(r1,3,7)", "at(r1,6,8)", "at(r1,3,9)", "at(r1,2,10)", "at(r2,3,2)", "at(r2,4,1)", "at(r2,6,3)", "at(r2,3,4)", "at(r2,2,5)", "at(r2,2,7)", "at(r2,3,8)", "at(r2,4,9)"
+          ],
+          "Costs": [
+            20
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "OPTIMUM FOUND",
+  "Models": {
+    "Number": 4,
+    "More": "no",
+    "Optimum": "yes",
+    "Optimal": 2,
+    "Costs": [
+      20
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.004,
+    "Solve": 0.001,
+    "Model": 0.001,
+    "Unsat": 0.000,
+    "CPU": 0.004
+  }
+}

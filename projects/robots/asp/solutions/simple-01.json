@@ -1,0 +1,38 @@
+{
+  "Solver": "clingo version 5.6.2",
+  "Input": [
+    "myrobots.lp","instances/simple-01.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "at(r1,1,0)", "assign(r1,j1,1)", "at(r1,3,2)", "at(r1,2,1)"
+          ],
+          "Costs": [
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "OPTIMUM FOUND",
+  "Models": {
+    "Number": 2,
+    "More": "no",
+    "Optimum": "yes",
+    "Optimal": 1,
+    "Costs": [
+      2
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.002,
+    "Solve": 0.000,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.002
+  }
+}
