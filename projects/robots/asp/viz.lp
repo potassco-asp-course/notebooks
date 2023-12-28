@@ -1,6 +1,6 @@
 %
 % Command: 
-%   clingo robots.lp instance.lp show.lp -t4 -q1,1,2 --outf=2 | clingraph --viz-encoding=viz.lp --out=animate --sort=asc-int --engine=neato --prefix=viz_ --name-format model-{model_number} --dir gifs/instance
+%   clingo robots.lp <instance> show.lp -t4 -q1,1,2 --outf=2 | clingraph --viz-encoding=viz.lp --out=animate --sort=asc-int --engine=neato --prefix=viz_ --name-format model-{model_number} --dir gifs/<instance>
 %
 
 %
@@ -68,8 +68,8 @@ viz_attr(node,(X,DT),shape,"circle") :- node(X), map(T,DT).
 viz_attr(node,(X,DT),  fillcolor,   white) :- free(X,T), map(T,DT). 
 viz_attr(node,(X,DT),colorscheme,"blues9") :- at(R,X,T), map(T,DT).
 % order robots alphabetically
-job(R,O+1) :- robot(R), O = { robot(RR) : RR >= R }.
-viz_attr(node,(X,DT),  fillcolor,       O) :- at(R,X,T), map(T,DT), job(R,O).
+robot_order(R,O) :- robot(R), O = { robot(RR) : RR >= R }.
+viz_attr(node,(X,DT),  fillcolor,     O+1) :- at(R,X,T), map(T,DT), robot_order(R,O).
 
 % penwidth
 viz_attr(node,(X,DT),penwidth,1) :- free(X,T), map(T,DT).
@@ -84,19 +84,28 @@ viz_attr(node,(time,T),  shape,rectangle) :- dtime(T).
 viz_attr(node,(time,T),  fontsize,14) :- dtime(T).
 viz_attr(node,(time,T),  width, "1") :- dtime(T).
 
+% JOBS node
+viz_node((jobs,T),T) :- dtime(T).
+viz_attr(node,(jobs,T),fixedsize,false) :- dtime(T).
+viz_attr(node,(jobs,T),   margin,"0.15") :- dtime(T).
+viz_attr(node,(jobs,T),    shape,rectangle) :- dtime(T).
+viz_attr(node,(jobs,T),fillcolor,lightgreen) :- dtime(T).
+% order jobs alphabetically
+job_order(J,O) :- job(J,_,_), O = { job(JJ,_,_) : JJ >= J }.
+% add labels
+viz_attr(node, (jobs,T), label, "<JOBS:<br/>{% for k, n in jobids.items() %}{{n}}<br/>{% endfor %}>") :- dtime(T).
+viz_attr(node, (jobs,T), (label,jobids,O), @concat(J," ",C," ",D)) :- dtime(T), job(J,C,D), job_order(J,O).
+
 % OPERATION nodes
 viz_node((op(J,O,N),T),T) :- job(J,C,D), operation(J,O,N), dtime(T).
 % format node
-viz_attr(node,(op(J,O,N),T),    width,       "1") :- job(J,C,D), operation(J,O,N), dtime(T).
+viz_attr(node,(op(J,O,N),T),    width,       "0.6") :- job(J,C,D), operation(J,O,N), dtime(T).
 viz_attr(node,(op(J,O,N),T),    shape, rectangle) :- job(J,C,D), operation(J,O,N), dtime(T).
 viz_attr(node,(op(J,O,N),T),fillcolor,lightgreen) :- job(J,C,D), operation(J,O,N), dtime(T).
 % add label
-viz_attr(node,(op(J,O,N),T),label,"{{job}} o{{operation}} {{type}} d{{deadline}}") :- 
-                                                    job(J,C,D), operation(J,O,N), dtime(T).
-viz_attr(node,(op(J,O,N),T),(label,      job),J) :- job(J,C,D), operation(J,O,N), dtime(T).
-viz_attr(node,(op(J,O,N),T),(label,     type),C) :- job(J,C,D), operation(J,O,N), dtime(T).
-viz_attr(node,(op(J,O,N),T),(label, deadline),D) :- job(J,C,D), operation(J,O,N), dtime(T).
-viz_attr(node,(op(J,O,N),T),(label,operation),O) :- job(J,C,D), operation(J,O,N), dtime(T).
+viz_attr(node,(op(J,O,N),T),label,"{{job}} o{{operation}}") :- job(J,C,D), operation(J,O,N), dtime(T).
+viz_attr(node,(op(J,O,N),T),(label,      job),J)            :- job(J,C,D), operation(J,O,N), dtime(T).
+viz_attr(node,(op(J,O,N),T),(label,operation),O)            :- job(J,C,D), operation(J,O,N), dtime(T).
 % connect to node
 viz_edge(((N,T),(op(J,O,N),T)),T) :- job(J,C,D), operation(J,O,N), dtime(T).
 % no arrows
