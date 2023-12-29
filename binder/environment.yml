@@ -10,4 +10,5 @@ dependencies:
   - clingo=5.5.0
   - clingcon=5.0.0
   - clingo-dl=1.2.0
-  - clingraph=1.1.1
+  - clingraph=1.1.2
+  - imageio=2.28
