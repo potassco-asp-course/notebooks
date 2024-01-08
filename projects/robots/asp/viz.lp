@@ -1,6 +1,6 @@
 %
 % Command: 
-%   clingo robots.lp <instance> show.lp -t4 -q1,1,2 --outf=2 | clingraph --viz-encoding=viz.lp --out=animate --sort=asc-int --engine=neato --prefix=viz_ --name-format model-{model_number} --dir gifs/<instance>
+%   clingo robots.lp <instance> viz_show.lp -t4 -q1,1,2 --outf=2 | clingraph --viz-encoding=viz.lp --out=animate --sort=asc-int --engine=neato --prefix=viz_ --name-format model-{model_number} --dir gifs/<instance>
 %
 
 %
