@@ -12,7 +12,6 @@ edge(X,X+1) :- X=1..7.
 edge(9..12, 1).
 edge(8,13..16).
 edge(4,17).
-%edge(5,18).
 robot(r1,c1, 9).
 robot(r2,c2,10).
 robot(r3,c3,11).

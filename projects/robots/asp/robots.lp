@@ -12,7 +12,7 @@
 %
 % Output:
 %   at(R,N,T): robot R is at node N at time step T
-%   assign(R,J,P): assign to R the job J at position P (in the sequence of jobs assigned to R) (P >= 1)
+%   assign(R,J,I): assign to R the job J at index I (in the sequence of jobs assigned to R) (I >= 1)
 %
 
 time(0..n).

@@ -14,9 +14,9 @@ robot(r2,c2,12). edge(12,1).
 robot(r3,c1,13). edge(13,1).
 robot(r4,c1,14). edge(14,1).
 job(j11,c1,10). operation(j11,1,1). operation(j11,2,1).
-job(j12,c1,n). operation(j12,1,1). operation(j12,2,2). operation(j12,3,2).
+job(j12,c1, n). operation(j12,1,1). operation(j12,2,2). operation(j12,3,2).
 job(j21,c2,10). operation(j21,1,1). operation(j21,2,1).
-job(j22,c2,n). operation(j22,1,1). operation(j22,2,2). operation(j22,3,2).
+job(j22,c2, n). operation(j22,1,1). operation(j22,2,2). operation(j22,3,2).
 job(j13,c1,10). operation(j13,1,1). operation(j13,2,1).
 job(j14,c1,10). operation(j14,1,1). operation(j14,2,2). operation(j14,3,2).
 job(j15,c1,10). operation(j15,1,1). operation(j15,2,1).
