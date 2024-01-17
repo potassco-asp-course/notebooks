@@ -41,6 +41,8 @@
     "Solve": 0.001,
     "Model": 0.001,
     "Unsat": 0.000,
-    "CPU": 0.004
-  }
+    "CPU": 0.006
+  },
+  "Threads": 4,
+  "Winner": 0
 }

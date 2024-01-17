@@ -1,0 +1,34 @@
+{
+  "Solver": "clingo version 5.6.2",
+  "Input": [
+    "myrobots.lp","instances/stop-04.lp"
+  ],
+  "Call": [
+    {
+
+    }
+  ],
+  "Result": "UNSATISFIABLE",
+  "Models": {
+    "Number": 0,
+    "More": "no"
+  },
+  "Bounds": {
+    "Lower": [
+      3
+    ],
+    "Upper": [
+      
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 19.661,
+    "Solve": 19.645,
+    "Model": 0.000,
+    "Unsat": 19.645,
+    "CPU": 78.593
+  },
+  "Threads": 4,
+  "Winner": 3
+}

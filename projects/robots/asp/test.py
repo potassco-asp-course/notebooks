@@ -9,7 +9,7 @@ import argparse
 
 def call_clingo(clingo, input_names, timeout):
     cmd = [clingo, "--warn=no-atom-undefined", "--warn=no-file-included", "--warn=no-operation-undefined", "--warn=no-global-variable", "--outf=2"] + input_names
-    cmd += ["-t4"] ## solving with 4 threads
+    # cmd += ["-t4"] ## solving with 4 threads
     start = time.time()
     output = run(cmd, stdout=PIPE, stderr=PIPE, timeout=timeout)
     end = time.time()

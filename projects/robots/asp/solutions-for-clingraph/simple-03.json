@@ -1,0 +1,40 @@
+{
+  "Solver": "clingo version 5.6.2",
+  "Input": [
+    "myrobots.lp","instances/simple-03.lp","viz_show.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "edge(1,2)", "edge(2,3)", "edge(3,4)", "edge(4,3)", "edge(3,2)", "edge(2,1)", "at(r1,1,0)", "job(j1,c1,3)", "job(j2,c1,10)", "operation(j1,1,3)", "operation(j1,2,4)", "operation(j2,1,4)", "operation(j2,2,1)", "operation(j2,3,4)", "robot(r1,c1,1)", "assign(r1,j1,1)", "assign(r1,j2,2)", "at(r1,3,2)", "at(r1,4,3)", "at(r1,4,4)", "at(r1,3,5)", "at(r1,1,7)", "at(r1,3,9)", "at(r1,4,10)", "at(r1,2,1)", "at(r1,2,6)", "at(r1,2,8)"
+          ],
+          "Costs": [
+            9
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "OPTIMUM FOUND",
+  "Models": {
+    "Number": 2,
+    "More": "no",
+    "Optimum": "yes",
+    "Optimal": 1,
+    "Costs": [
+      9
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.002,
+    "Solve": 0.000,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.003
+  },
+  "Threads": 4,
+  "Winner": 0
+}

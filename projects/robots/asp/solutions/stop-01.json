@@ -27,7 +27,7 @@
   ],
   "Result": "OPTIMUM FOUND",
   "Models": {
-    "Number": 4,
+    "Number": 5,
     "More": "no",
     "Optimum": "yes",
     "Optimal": 2,
@@ -37,10 +37,12 @@
   },
   "Calls": 1,
   "Time": {
-    "Total": 0.006,
-    "Solve": 0.000,
+    "Total": 0.004,
+    "Solve": 0.001,
     "Model": 0.000,
     "Unsat": 0.000,
-    "CPU": 0.004
-  }
+    "CPU": 0.005
+  },
+  "Threads": 4,
+  "Winner": 1
 }

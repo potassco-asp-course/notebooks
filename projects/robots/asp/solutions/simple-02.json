@@ -34,5 +34,7 @@
     "Model": 0.000,
     "Unsat": 0.000,
     "CPU": 0.002
-  }
+  },
+  "Threads": 4,
+  "Winner": 3
 }

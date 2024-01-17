@@ -29,10 +29,12 @@
   },
   "Calls": 1,
   "Time": {
-    "Total": 0.004,
-    "Solve": 0.000,
+    "Total": 0.005,
+    "Solve": 0.001,
     "Model": 0.000,
     "Unsat": 0.000,
-    "CPU": 0.004
-  }
+    "CPU": 0.006
+  },
+  "Threads": 4,
+  "Winner": 2
 }

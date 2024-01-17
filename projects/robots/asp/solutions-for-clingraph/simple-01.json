@@ -1,7 +1,7 @@
 {
   "Solver": "clingo version 5.6.2",
   "Input": [
-    "myrobots.lp","instances/simple-01.lp","show.lp"
+    "myrobots.lp","instances/simple-01.lp","viz_show.lp"
   ],
   "Call": [
     {
@@ -36,5 +36,5 @@
     "CPU": 0.002
   },
   "Threads": 4,
-  "Winner": 3
+  "Winner": 0
 }

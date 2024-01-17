@@ -1,54 +1,14 @@
 {
   "Solver": "clingo version 5.6.2",
   "Input": [
-    "myrobots.lp","instances/corridor-02.lp","show.lp"
+    "myrobots.lp","instances/corridor-02.lp","viz_show.lp"
   ],
   "Call": [
     {
       "Witnesses": [
         {
           "Value": [
-            "edge(3,6)", "edge(1,2)", "edge(2,3)", "edge(3,4)", "edge(4,5)", "edge(5,4)", "edge(4,3)", "edge(3,2)", "edge(2,1)", "edge(6,3)", "at(r1,1,0)", "at(r2,5,0)", "job(j1,c1,10)", "job(j2,c2,12)", "operation(j1,1,1)", "operation(j1,2,5)", "operation(j1,3,1)", "operation(j2,1,5)", "operation(j2,2,1)", "operation(j2,3,5)", "robot(r1,c1,1)", "robot(r2,c2,5)", "assign(r1,j1,1)", "assign(r2,j2,1)", "at(r2,5,1)", "at(r2,1,5)", "at(r1,5,6)", "at(r1,1,10)", "at(r1,1,11)", "at(r2,5,12)", "at(r1,1,12)", "at(r1,3,2)", "at(r1,2,1)", "at(r1,6,3)", "at(r1,3,4)", "at(r1,4,5)", "at(r1,4,7)", "at(r1,3,8)", "at(r1,2,9)", "at(r2,4,2)", "at(r2,3,3)", "at(r2,2,4)", "at(r2,2,6)", "at(r2,3,7)", "at(r2,6,8)", "at(r2,3,9)", "at(r2,4,10)", "at(r2,4,11)"
-          ],
-          "Costs": [
-            20
-          ]
-        },
-        {
-          "Value": [
             "edge(3,6)", "edge(1,2)", "edge(2,3)", "edge(3,4)", "edge(4,5)", "edge(5,4)", "edge(4,3)", "edge(3,2)", "edge(2,1)", "edge(6,3)", "at(r1,1,0)", "at(r2,5,0)", "job(j1,c1,10)", "job(j2,c2,12)", "operation(j1,1,1)", "operation(j1,2,5)", "operation(j1,3,1)", "operation(j2,1,5)", "operation(j2,2,1)", "operation(j2,3,5)", "robot(r1,c1,1)", "robot(r2,c2,5)", "assign(r1,j1,1)", "assign(r2,j2,1)", "at(r2,5,1)", "at(r2,1,5)", "at(r1,5,6)", "at(r1,1,10)", "at(r1,1,11)", "at(r2,5,11)", "at(r2,5,12)", "at(r1,1,12)", "at(r1,3,2)", "at(r1,2,1)", "at(r1,6,3)", "at(r1,3,4)", "at(r1,4,5)", "at(r1,4,7)", "at(r1,3,8)", "at(r1,2,9)", "at(r2,4,2)", "at(r2,3,3)", "at(r2,2,4)", "at(r2,2,6)", "at(r2,3,7)", "at(r2,6,8)", "at(r2,3,9)", "at(r2,4,10)"
-          ],
-          "Costs": [
-            20
-          ]
-        },
-        {
-          "Value": [
-            "edge(3,6)", "edge(1,2)", "edge(2,3)", "edge(3,4)", "edge(4,5)", "edge(5,4)", "edge(4,3)", "edge(3,2)", "edge(2,1)", "edge(6,3)", "at(r1,1,0)", "at(r2,5,0)", "job(j1,c1,10)", "job(j2,c2,12)", "operation(j1,1,1)", "operation(j1,2,5)", "operation(j1,3,1)", "operation(j2,1,5)", "operation(j2,2,1)", "operation(j2,3,5)", "robot(r1,c1,1)", "robot(r2,c2,5)", "assign(r1,j1,1)", "assign(r2,j2,1)", "at(r2,1,5)", "at(r1,5,6)", "at(r1,1,10)", "at(r1,1,11)", "at(r2,5,12)", "at(r1,1,12)", "at(r1,3,2)", "at(r1,2,1)", "at(r1,6,3)", "at(r1,3,4)", "at(r1,4,5)", "at(r1,4,7)", "at(r1,3,8)", "at(r1,2,9)", "at(r2,4,1)", "at(r2,4,2)", "at(r2,3,3)", "at(r2,2,4)", "at(r2,2,6)", "at(r2,3,7)", "at(r2,6,8)", "at(r2,3,9)", "at(r2,3,10)", "at(r2,4,11)"
-          ],
-          "Costs": [
-            20
-          ]
-        },
-        {
-          "Value": [
-            "edge(3,6)", "edge(1,2)", "edge(2,3)", "edge(3,4)", "edge(4,5)", "edge(5,4)", "edge(4,3)", "edge(3,2)", "edge(2,1)", "edge(6,3)", "at(r1,1,0)", "at(r2,5,0)", "job(j1,c1,10)", "job(j2,c2,12)", "operation(j1,1,1)", "operation(j1,2,5)", "operation(j1,3,1)", "operation(j2,1,5)", "operation(j2,2,1)", "operation(j2,3,5)", "robot(r1,c1,1)", "robot(r2,c2,5)", "assign(r1,j1,1)", "assign(r2,j2,1)", "at(r2,5,1)", "at(r2,1,5)", "at(r1,5,6)", "at(r1,1,10)", "at(r1,1,11)", "at(r2,5,12)", "at(r1,1,12)", "at(r1,3,2)", "at(r1,2,1)", "at(r1,6,3)", "at(r1,3,4)", "at(r1,4,5)", "at(r1,4,7)", "at(r1,3,8)", "at(r1,2,9)", "at(r2,4,2)", "at(r2,3,3)", "at(r2,2,4)", "at(r2,2,6)", "at(r2,3,7)", "at(r2,6,8)", "at(r2,3,9)", "at(r2,3,10)", "at(r2,4,11)"
-          ],
-          "Costs": [
-            20
-          ]
-        },
-        {
-          "Value": [
-            "edge(3,6)", "edge(1,2)", "edge(2,3)", "edge(3,4)", "edge(4,5)", "edge(5,4)", "edge(4,3)", "edge(3,2)", "edge(2,1)", "edge(6,3)", "at(r1,1,0)", "at(r2,5,0)", "job(j1,c1,10)", "job(j2,c2,12)", "operation(j1,1,1)", "operation(j1,2,5)", "operation(j1,3,1)", "operation(j2,1,5)", "operation(j2,2,1)", "operation(j2,3,5)", "robot(r1,c1,1)", "robot(r2,c2,5)", "assign(r1,j1,1)", "assign(r2,j2,1)", "at(r2,1,5)", "at(r1,5,6)", "at(r1,1,10)", "at(r1,1,11)", "at(r2,5,12)", "at(r1,1,12)", "at(r1,3,2)", "at(r1,2,1)", "at(r1,6,3)", "at(r1,3,4)", "at(r1,4,5)", "at(r1,4,7)", "at(r1,3,8)", "at(r1,2,9)", "at(r2,4,1)", "at(r2,4,2)", "at(r2,3,3)", "at(r2,2,4)", "at(r2,2,6)", "at(r2,3,7)", "at(r2,6,8)", "at(r2,3,9)", "at(r2,4,10)", "at(r2,4,11)"
-          ],
-          "Costs": [
-            20
-          ]
-        },
-        {
-          "Value": [
-            "edge(3,6)", "edge(1,2)", "edge(2,3)", "edge(3,4)", "edge(4,5)", "edge(5,4)", "edge(4,3)", "edge(3,2)", "edge(2,1)", "edge(6,3)", "at(r1,1,0)", "at(r2,5,0)", "job(j1,c1,10)", "job(j2,c2,12)", "operation(j1,1,1)", "operation(j1,2,5)", "operation(j1,3,1)", "operation(j2,1,5)", "operation(j2,2,1)", "operation(j2,3,5)", "robot(r1,c1,1)", "robot(r2,c2,5)", "assign(r1,j1,1)", "assign(r2,j2,1)", "at(r2,1,5)", "at(r1,5,6)", "at(r1,1,10)", "at(r1,1,11)", "at(r2,5,12)", "at(r1,1,12)", "at(r1,3,2)", "at(r1,2,1)", "at(r1,6,3)", "at(r1,3,4)", "at(r1,4,5)", "at(r1,4,7)", "at(r1,3,8)", "at(r1,2,9)", "at(r2,4,1)", "at(r2,4,2)", "at(r2,3,3)", "at(r2,2,4)", "at(r2,2,6)", "at(r2,3,7)", "at(r2,6,8)", "at(r2,6,9)", "at(r2,3,10)", "at(r2,4,11)"
           ],
           "Costs": [
             20
@@ -64,7 +24,47 @@
         },
         {
           "Value": [
+            "edge(3,6)", "edge(1,2)", "edge(2,3)", "edge(3,4)", "edge(4,5)", "edge(5,4)", "edge(4,3)", "edge(3,2)", "edge(2,1)", "edge(6,3)", "at(r1,1,0)", "at(r2,5,0)", "job(j1,c1,10)", "job(j2,c2,12)", "operation(j1,1,1)", "operation(j1,2,5)", "operation(j1,3,1)", "operation(j2,1,5)", "operation(j2,2,1)", "operation(j2,3,5)", "robot(r1,c1,1)", "robot(r2,c2,5)", "assign(r1,j1,1)", "assign(r2,j2,1)", "at(r2,5,1)", "at(r2,1,5)", "at(r1,5,6)", "at(r1,1,10)", "at(r1,1,11)", "at(r2,5,12)", "at(r1,1,12)", "at(r1,3,2)", "at(r1,2,1)", "at(r1,6,3)", "at(r1,3,4)", "at(r1,4,5)", "at(r1,4,7)", "at(r1,3,8)", "at(r1,2,9)", "at(r2,4,2)", "at(r2,3,3)", "at(r2,2,4)", "at(r2,2,6)", "at(r2,3,7)", "at(r2,6,8)", "at(r2,3,9)", "at(r2,3,10)", "at(r2,4,11)"
+          ],
+          "Costs": [
+            20
+          ]
+        },
+        {
+          "Value": [
             "edge(3,6)", "edge(1,2)", "edge(2,3)", "edge(3,4)", "edge(4,5)", "edge(5,4)", "edge(4,3)", "edge(3,2)", "edge(2,1)", "edge(6,3)", "at(r1,1,0)", "at(r2,5,0)", "job(j1,c1,10)", "job(j2,c2,12)", "operation(j1,1,1)", "operation(j1,2,5)", "operation(j1,3,1)", "operation(j2,1,5)", "operation(j2,2,1)", "operation(j2,3,5)", "robot(r1,c1,1)", "robot(r2,c2,5)", "assign(r1,j1,1)", "assign(r2,j2,1)", "at(r2,5,1)", "at(r2,1,5)", "at(r1,5,6)", "at(r1,1,10)", "at(r1,1,11)", "at(r2,5,12)", "at(r1,1,12)", "at(r1,3,2)", "at(r1,2,1)", "at(r1,6,3)", "at(r1,3,4)", "at(r1,4,5)", "at(r1,4,7)", "at(r1,3,8)", "at(r1,2,9)", "at(r2,4,2)", "at(r2,3,3)", "at(r2,2,4)", "at(r2,2,6)", "at(r2,3,7)", "at(r2,6,8)", "at(r2,6,9)", "at(r2,3,10)", "at(r2,4,11)"
+          ],
+          "Costs": [
+            20
+          ]
+        },
+        {
+          "Value": [
+            "edge(3,6)", "edge(1,2)", "edge(2,3)", "edge(3,4)", "edge(4,5)", "edge(5,4)", "edge(4,3)", "edge(3,2)", "edge(2,1)", "edge(6,3)", "at(r1,1,0)", "at(r2,5,0)", "job(j1,c1,10)", "job(j2,c2,12)", "operation(j1,1,1)", "operation(j1,2,5)", "operation(j1,3,1)", "operation(j2,1,5)", "operation(j2,2,1)", "operation(j2,3,5)", "robot(r1,c1,1)", "robot(r2,c2,5)", "assign(r1,j1,1)", "assign(r2,j2,1)", "at(r2,1,5)", "at(r1,5,6)", "at(r1,1,10)", "at(r1,1,11)", "at(r2,5,12)", "at(r1,1,12)", "at(r1,3,2)", "at(r1,2,1)", "at(r1,6,3)", "at(r1,3,4)", "at(r1,4,5)", "at(r1,4,7)", "at(r1,3,8)", "at(r1,2,9)", "at(r2,4,1)", "at(r2,4,2)", "at(r2,3,3)", "at(r2,2,4)", "at(r2,2,6)", "at(r2,3,7)", "at(r2,6,8)", "at(r2,6,9)", "at(r2,3,10)", "at(r2,4,11)"
+          ],
+          "Costs": [
+            20
+          ]
+        },
+        {
+          "Value": [
+            "edge(3,6)", "edge(1,2)", "edge(2,3)", "edge(3,4)", "edge(4,5)", "edge(5,4)", "edge(4,3)", "edge(3,2)", "edge(2,1)", "edge(6,3)", "at(r1,1,0)", "at(r2,5,0)", "job(j1,c1,10)", "job(j2,c2,12)", "operation(j1,1,1)", "operation(j1,2,5)", "operation(j1,3,1)", "operation(j2,1,5)", "operation(j2,2,1)", "operation(j2,3,5)", "robot(r1,c1,1)", "robot(r2,c2,5)", "assign(r1,j1,1)", "assign(r2,j2,1)", "at(r2,1,5)", "at(r1,5,6)", "at(r1,1,10)", "at(r1,1,11)", "at(r2,5,12)", "at(r1,1,12)", "at(r1,3,2)", "at(r1,2,1)", "at(r1,6,3)", "at(r1,3,4)", "at(r1,4,5)", "at(r1,4,7)", "at(r1,3,8)", "at(r1,2,9)", "at(r2,4,1)", "at(r2,4,2)", "at(r2,3,3)", "at(r2,2,4)", "at(r2,2,6)", "at(r2,3,7)", "at(r2,6,8)", "at(r2,3,9)", "at(r2,4,10)", "at(r2,4,11)"
+          ],
+          "Costs": [
+            20
+          ]
+        },
+        {
+          "Value": [
+            "edge(3,6)", "edge(1,2)", "edge(2,3)", "edge(3,4)", "edge(4,5)", "edge(5,4)", "edge(4,3)", "edge(3,2)", "edge(2,1)", "edge(6,3)", "at(r1,1,0)", "at(r2,5,0)", "job(j1,c1,10)", "job(j2,c2,12)", "operation(j1,1,1)", "operation(j1,2,5)", "operation(j1,3,1)", "operation(j2,1,5)", "operation(j2,2,1)", "operation(j2,3,5)", "robot(r1,c1,1)", "robot(r2,c2,5)", "assign(r1,j1,1)", "assign(r2,j2,1)", "at(r2,5,1)", "at(r2,1,5)", "at(r1,5,6)", "at(r1,1,10)", "at(r1,1,11)", "at(r2,5,12)", "at(r1,1,12)", "at(r1,3,2)", "at(r1,2,1)", "at(r1,6,3)", "at(r1,3,4)", "at(r1,4,5)", "at(r1,4,7)", "at(r1,3,8)", "at(r1,2,9)", "at(r2,4,2)", "at(r2,3,3)", "at(r2,2,4)", "at(r2,2,6)", "at(r2,3,7)", "at(r2,6,8)", "at(r2,3,9)", "at(r2,4,10)", "at(r2,4,11)"
+          ],
+          "Costs": [
+            20
+          ]
+        },
+        {
+          "Value": [
+            "edge(3,6)", "edge(1,2)", "edge(2,3)", "edge(3,4)", "edge(4,5)", "edge(5,4)", "edge(4,3)", "edge(3,2)", "edge(2,1)", "edge(6,3)", "at(r1,1,0)", "at(r2,5,0)", "job(j1,c1,10)", "job(j2,c2,12)", "operation(j1,1,1)", "operation(j1,2,5)", "operation(j1,3,1)", "operation(j2,1,5)", "operation(j2,2,1)", "operation(j2,3,5)", "robot(r1,c1,1)", "robot(r2,c2,5)", "assign(r1,j1,1)", "assign(r2,j2,1)", "at(r2,1,5)", "at(r1,5,6)", "at(r1,1,10)", "at(r1,1,11)", "at(r2,5,12)", "at(r1,1,12)", "at(r1,3,2)", "at(r1,2,1)", "at(r1,6,3)", "at(r1,3,4)", "at(r1,4,5)", "at(r1,4,7)", "at(r1,3,8)", "at(r1,2,9)", "at(r2,4,1)", "at(r2,4,2)", "at(r2,3,3)", "at(r2,2,4)", "at(r2,2,6)", "at(r2,3,7)", "at(r2,6,8)", "at(r2,3,9)", "at(r2,3,10)", "at(r2,4,11)"
           ],
           "Costs": [
             20
@@ -89,8 +89,8 @@
     "Solve": 0.001,
     "Model": 0.001,
     "Unsat": 0.000,
-    "CPU": 0.008
+    "CPU": 0.007
   },
   "Threads": 4,
-  "Winner": 2
+  "Winner": 1
 }
