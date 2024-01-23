@@ -1,0 +1,86 @@
+product {
+	Color    color
+    bool     basket
+    bool     storageNeeded
+    Saddle   saddle
+	Wheel	 frontWheel
+	Wheel	 rearWheel
+    Carrier  carrier
+}
+
+enumeration Color {
+	Silver
+	White
+	Black
+	Blue
+}
+
+enumeration bool {
+    True
+    False
+}
+
+enumeration Saddle {
+    Standard
+    Comfort
+    Vintage
+}
+
+enumeration Wheel {
+	attribute size
+
+	W26	= (	 26	)
+	W27	= (	 27	)
+	W28	= (	 28	)
+	W29	= (	 29	)
+}
+
+structure Carrier {
+    Bag bag
+}
+
+structure Bag {
+	Capacity capacity
+	Material material
+}
+
+enumeration Capacity {
+	attribute volume
+
+	B10  = ( 10 )
+	B20  = ( 20 )
+	B50  = ( 50 )
+	B100 = (100 )
+}
+
+enumeration Material {
+	Cotton
+	Leather
+	Polyester
+}
+
+behavior {
+	condition basket = True
+	require frontWheel.size < 29
+}
+
+behavior {
+	condition storageNeeded = True
+	require carrier.bag.volume >= 50
+}
+
+behavior {
+	combinations  (saddle	 carrier.bag.material)
+	allow         (Standard  Polyester         )
+    allow         (Comfort   (Polyester,Cotton))
+	allow         (Vintage   Leather           )
+}
+
+behavior {
+	require frontWheel.size = rearWheel.size
+}
+
+behavior Bag {
+	condition material = Leather
+	default capacity = B10
+}

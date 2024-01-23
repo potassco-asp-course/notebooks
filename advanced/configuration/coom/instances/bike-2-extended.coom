@@ -1,0 +1,27 @@
+product {
+	Wheel	frontWheel
+	Wheel	rearWheel
+    Bool    wheelSupport
+}
+
+enumeration Wheel {
+	W14
+	W16
+	W18
+	W20
+}
+
+enumeration Bool{
+    True
+    False
+}
+
+behavior {
+	combinations  (wheelSupport	 rearWheel)
+	allow         (True          (W14, W16))
+	allow         (False         (W18, W20))
+}
+
+behavior {
+	require frontWheel = rearWheel
+}

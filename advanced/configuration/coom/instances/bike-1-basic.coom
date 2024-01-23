@@ -1,0 +1,15 @@
+product {
+	Wheel	frontWheel
+	Wheel	rearWheel
+}
+
+enumeration Wheel {
+	W14
+	W16
+	W18
+	W20
+}
+
+behavior {
+	require frontWheel = rearWheel
+}
