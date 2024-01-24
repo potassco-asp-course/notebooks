@@ -4,7 +4,7 @@
 % it cannot be that the constraint (S,C) requires a binary formula B and B does not hold
 :- behavior((S,C)), require((S,C),B), not holds_binary(B).
 
-% binary formula B of the form Left = Right
+% binary formula B of the form Left = Right holds if...
 holds_binary(B) :- binary(_,B,Left,"=",Right), value(Left,LV), value(Right,RV), LV = RV.
 
 % display value
