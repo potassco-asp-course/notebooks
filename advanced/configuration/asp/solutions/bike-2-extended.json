@@ -1,0 +1,45 @@
+{
+  "Solver": "clingo version 5.6.2",
+  "Input": [
+    "configuration.lp","instances/bike-2-extended.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "value(\"wheelSupport\",\"False\")", "value(\"rearWheel\",\"W20\")", "value(\"frontWheel\",\"W20\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"wheelSupport\",\"False\")", "value(\"rearWheel\",\"W18\")", "value(\"frontWheel\",\"W18\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"wheelSupport\",\"True\")", "value(\"rearWheel\",\"W16\")", "value(\"frontWheel\",\"W16\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"wheelSupport\",\"True\")", "value(\"rearWheel\",\"W14\")", "value(\"frontWheel\",\"W14\")"
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 4,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.002,
+    "Solve": 0.000,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.002
+  }
+}

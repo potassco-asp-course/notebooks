@@ -1,0 +1,95 @@
+{
+  "Solver": "clingo version 5.6.2",
+  "Input": [
+    "configuration.lp","instances/bike-3-kids.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "value(\"color\",\"Red\")", "value(\"wheelSupport\",\"False\")", "value(\"rearWheel\",\"W20\")", "value(\"frontWheel\",\"W20\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"color\",\"Blue\")", "value(\"wheelSupport\",\"False\")", "value(\"rearWheel\",\"W20\")", "value(\"frontWheel\",\"W20\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"color\",\"Green\")", "value(\"wheelSupport\",\"False\")", "value(\"rearWheel\",\"W20\")", "value(\"frontWheel\",\"W20\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"color\",\"Yellow\")", "value(\"wheelSupport\",\"False\")", "value(\"rearWheel\",\"W20\")", "value(\"frontWheel\",\"W20\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"color\",\"Red\")", "value(\"wheelSupport\",\"False\")", "value(\"rearWheel\",\"W18\")", "value(\"frontWheel\",\"W18\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"color\",\"Blue\")", "value(\"wheelSupport\",\"False\")", "value(\"rearWheel\",\"W18\")", "value(\"frontWheel\",\"W18\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"color\",\"Green\")", "value(\"wheelSupport\",\"False\")", "value(\"rearWheel\",\"W18\")", "value(\"frontWheel\",\"W18\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"color\",\"Yellow\")", "value(\"wheelSupport\",\"False\")", "value(\"rearWheel\",\"W18\")", "value(\"frontWheel\",\"W18\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"color\",\"Red\")", "value(\"wheelSupport\",\"True\")", "value(\"rearWheel\",\"W16\")", "value(\"frontWheel\",\"W16\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"color\",\"Blue\")", "value(\"wheelSupport\",\"True\")", "value(\"rearWheel\",\"W16\")", "value(\"frontWheel\",\"W16\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"color\",\"Green\")", "value(\"wheelSupport\",\"True\")", "value(\"rearWheel\",\"W16\")", "value(\"frontWheel\",\"W16\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"color\",\"Red\")", "value(\"wheelSupport\",\"True\")", "value(\"rearWheel\",\"W14\")", "value(\"frontWheel\",\"W14\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"color\",\"Green\")", "value(\"wheelSupport\",\"True\")", "value(\"rearWheel\",\"W14\")", "value(\"frontWheel\",\"W14\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"color\",\"Blue\")", "value(\"wheelSupport\",\"True\")", "value(\"rearWheel\",\"W14\")", "value(\"frontWheel\",\"W14\")"
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 14,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.002,
+    "Solve": 0.000,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.002
+  }
+}

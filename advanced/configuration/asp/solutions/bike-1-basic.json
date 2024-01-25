@@ -1,0 +1,45 @@
+{
+  "Solver": "clingo version 5.6.2",
+  "Input": [
+    "configuration.lp","instances/bike-1-basic.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "value(\"frontWheel\",\"W18\")", "value(\"rearWheel\",\"W18\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"frontWheel\",\"W20\")", "value(\"rearWheel\",\"W20\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"frontWheel\",\"W16\")", "value(\"rearWheel\",\"W16\")"
+          ]
+        },
+        {
+          "Value": [
+            "value(\"frontWheel\",\"W14\")", "value(\"rearWheel\",\"W14\")"
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 4,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.002,
+    "Solve": 0.000,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.001
+  }
+}
