@@ -107,6 +107,7 @@ condition(("Bag",4),"material=Leather").
 binary("Bag","material=Leather","material","=","Leather").
 path("material",0,"material").
 constant("Leather").
-default(("Bag",4),"capacity","B10").
+require(("Bag",4),"capacity=B10").
+binary("Bag","capacity=B10","capacity","=","B10").
 path("capacity",0,"capacity").
 constant("B10").
