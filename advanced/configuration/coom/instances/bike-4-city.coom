@@ -82,5 +82,5 @@ behavior {
 
 behavior Bag {
 	condition material = Leather
-	default capacity = B10
+	require capacity = B10
 }
