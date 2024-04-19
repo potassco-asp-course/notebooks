@@ -7,16 +7,19 @@ enable_python()
 
 class AspifSymbolicPrinter:
 
+    _externals = 0
+    _heuristics = 1
+    _minimizes = 2
+    _output_facts = 3
+    _output_atoms = 4
+    _output_terms = 5
+    _projects = 6
+    _rules = 7
+    _weight_rules = 8
+
     def __init__(self):
-        self._externals = []
-        self._heuristics = []
-        self._minimizes = []
-        self._output_facts = []
+        self._elements = []
         self._output_atoms = dict()
-        self._output_terms = []
-        self._projects = []
-        self._rules = []
-        self._weight_rules = []
 
     def _update(self, lit):
         if lit > 0:
@@ -32,49 +35,51 @@ class AspifSymbolicPrinter:
 
     def print(self):
         printer = AspifPrinter()
-        for x in self._rules:
-            printer.rule(x[0], self._update_set(x[1]), self._update_set(x[2]))
-        for x in self._weight_rules:
-            printer.weight_rule(x[0], self._update_set(x[1]), x[2], self._update_weighted(x[3]))
-        for x in self._externals:
-            printer.external(self._update(x[0]), x[1])
-        for x in self._heuristics:
-            printer.heuristic(self._update(x[0]), x[1], x[2], x[3], self._update_set(x[4]))
-        for x in self._minimizes:
-            printer.minimize(x[0], self._update_weighted(x[1]))
-        for x in self._output_facts:
-            print(f"{x}.")
-        for x in self._output_terms:
-            printer.output_term(x[0], self._update_set(x[1]))
-        for x in self._projects:
-            printer.project(self._update_set(x))
+        for e in self._elements:
+            _type, x = e[0], e[1]
+            if _type == self._externals:
+                printer.external(self._update(x[0]), x[1])
+            if _type == self._heuristics:
+                printer.heuristic(self._update(x[0]), x[1], x[2], x[3], self._update_set(x[4]))
+            if _type == self._minimizes:
+                printer.minimize(x[0], self._update_weighted(x[1]))
+            if _type == self._output_facts:
+                print(f"#show {x}.")
+            if _type == self._output_terms:
+                printer.output_term(x[0], self._update_set(x[1]))
+            if _type == self._projects:
+                printer.project(self._update_set(x))
+            if _type == self._rules:
+                printer.rule(x[0], self._update_set(x[1]), self._update_set(x[2]))
+            if _type == self._weight_rules:
+                printer.weight_rule(x[0], self._update_set(x[1]), x[2], self._update_weighted(x[3]))
 
     def external(self, atom, value):
-        self._externals.append((atom, value))
+        self._elements.append((self._externals, (atom, value)))
 
     def heuristic(self, atom, type_, bias, priority, condition):
-        self._heuristics.append((atom, type_, bias, priority, condition))
+        self._elements.append((self._heuristics, (atom, type_, bias, priority, condition)))
 
     def minimize(self, priority, literals):
-        self._minimizes.append((priority, literals))
+        self._elements.append((self._minimizes, (priority, literals)))
 
     def output_atom(self, symbol, atom):
         if atom == 0:
-            self._output_facts.append(symbol)
+            self._elements.append((self._output_facts, symbol))
         else:
             self._output_atoms[atom] = symbol
 
     def output_term(self, symbol, condition):
-        self._output_terms.append((symbol, condition))
+        self._elements.append((self._output_terms, (symbol, condition)))
 
     def project(self, atoms):
-        self._projects.append(atoms)
+        self._elements.append((self._projects, atoms))
 
     def rule(self, choice, head, body):
-        self._rules.append((choice, head, body))
+        self._elements.append((self._rules, (choice, head, body)))
 
     def weight_rule(self, choice, head, lower_bound, body):
-        self._weight_rules.append((choice, head, lower_bound, body))
+        self._elements.append((self._weight_rules, (choice, head, lower_bound, body)))
 
 
 class AspifPrinter:
