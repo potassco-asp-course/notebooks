@@ -1,8 +1,9 @@
 import sys
 from clingo.control import Control
+from clingo.symbol import parse_term
 
 
-class IClingoApp:
+class ShellApp:
 
 
     def __init__(self):
@@ -56,5 +57,5 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         with open(sys.argv[1]) as _file:
             commands = _file.readlines()
-    IClingoApp().run(commands)
+    ShellApp().run(commands)
 
