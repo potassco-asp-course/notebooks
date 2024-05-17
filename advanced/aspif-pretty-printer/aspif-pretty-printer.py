@@ -14,7 +14,7 @@ class AspifPrinter:
 
 if __name__ == "__main__":
 
-    if sys.argv[1] == "--help":
+    if len(sys.argv)>1 and sys.argv[1] == "--help":
         print("""
     Run:\n  python aspif-pretty-printer.py [--text] <files>
     """)
