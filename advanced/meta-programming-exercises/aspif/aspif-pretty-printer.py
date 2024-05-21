@@ -33,7 +33,7 @@ class AspifSymbolicPrinter:
     def _update_weighted(self, lits):
         return [(self._update(i),w) for (i,w) in lits]
 
-    def print(self):
+    def display(self):
         printer = AspifPrinter()
         for e in self._elements:
             _type, x = e[0], e[1]
@@ -100,7 +100,7 @@ class AspifPrinter:
         HeuristicType.True_ : "true",
     }
 
-    def print(self):
+    def display(self):
         pass
 
     def external(self, atom, value):
@@ -187,5 +187,5 @@ if __name__ == "__main__":
         ctl.load("-")
     ctl.register_observer(printer)
     ctl.ground([("base", [])])
-    printer.print()
+    printer.display()
 
