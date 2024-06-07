@@ -1,0 +1,23 @@
+{
+ "Solver": "clingo version 5.4.0",
+ "Input": [
+  "meta-constraints.lp",
+  "-"
+ ],
+ "Call": [
+  {}
+ ],
+ "Result": "UNSATISFIABLE",
+ "Models": {
+  "Number": 0,
+  "More": "no"
+ },
+ "Calls": 1,
+ "Time": {
+  "Total": 3.022,
+  "Solve": 1.542,
+  "Model": 0.0,
+  "Unsat": 1.542,
+  "CPU": 3.022
+ }
+}
