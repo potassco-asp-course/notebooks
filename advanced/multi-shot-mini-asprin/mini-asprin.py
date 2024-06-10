@@ -33,6 +33,9 @@ DELETE = """
 
 class MiniAsprinApp(Application):
 
+    program_name = "mini-asprin"
+    version = "1.0"
+    
     def main(self, ctl, files):
         for path in files:
             ctl.load(path)
