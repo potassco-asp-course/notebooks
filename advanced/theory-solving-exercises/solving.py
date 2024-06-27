@@ -4,17 +4,18 @@ from clingo.propagator import Propagator
 from aspif.pretty_printer import AspifPrinter, AspifSymbolicPrinter
 
 
-PROFILER = 0
+BASIC = 0
 CHECK = 1
 PROPAGATE_ON_CONFLICT = 2
 PROPAGATE_ALWAYS = 3
 PROPAGATE_ALWAYS_STATEFUL = 4
 
 
-class SolvingGame(Propagator):
+class Solving(Propagator):
 
     def __init__(self, _type):
         # initialize data structures
+        self._type = _type
         pass
 
     def init(self, init):
@@ -61,15 +62,18 @@ class SolvingGame(Propagator):
 
 class App(Application):
     
-    program_name = "solving_game"
+    program_name = "solving"
     version = "1.0"
+
+    def __init__(self):
+        self._type = BASIC
 
     def _parse_type(self, option):
         self._type = int(option)
         return True if int(option) in range(5) else False
 
     def register_options(self, options):
-        group = 'Solving Game Options'
+        group = 'Solving Exercises Options'
         options.add(group, 'type', 'Type of propagator [0..4]', self._parse_type, argument="<var>")
 
     def main(self, ctl, files):
@@ -79,7 +83,7 @@ class App(Application):
         # uncomment to see the symbolic aspif output (also below before solve())
         # symbolic_printer = AspifSymbolicPrinter()
         # ctl.register_observer(symbolic_printer)
-        ctl.register_propagator(SolvingGame(self._type))
+        ctl.register_propagator(Solving(self._type))
         for path in files:
             ctl.load(path)
         if not files:
