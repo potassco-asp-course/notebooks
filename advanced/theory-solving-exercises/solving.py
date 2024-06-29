@@ -7,8 +7,8 @@ from aspif.pretty_printer import AspifPrinter, AspifSymbolicPrinter
 BASIC = 0
 CHECK = 1
 PROPAGATE_ON_CONFLICT = 2
-PROPAGATE_ALWAYS = 3
-PROPAGATE_ALWAYS_STATEFUL = 4
+PROPAGATE_IF_POSSIBLE = 3
+PROPAGATE_IF_POSSIBLE_STATEFUL = 4
 
 
 class Solving(Propagator):
@@ -48,12 +48,12 @@ class Solving(Propagator):
     def propagate(self, control, changes):
         print(f"{self._print_current_level(control.assignment)}(P)")
         if self._type == PROPAGATE_ON_CONFLICT: pass
-        if self._type == PROPAGATE_ALWAYS: pass
-        if self._type == PROPAGATE_ALWAYS_STATEFUL: pass
+        if self._type == PROPAGATE_IF_POSSIBLE: pass
+        if self._type == PROPAGATE_IF_POSSIBLE_STATEFUL: pass
 
     def undo(self, thread_id, assignment, changes):
         print(f"{self._print_current_level(assignment)}(U)")
-        if self._type == PROPAGATE_ALWAYS_STATEFUL: pass
+        if self._type == PROPAGATE_IF_POSSIBLE_STATEFUL: pass
 
     def check(self, control):
         print(f"{self._print_current_level(control.assignment)}(C)")
