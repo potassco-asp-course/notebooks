@@ -3,12 +3,12 @@ from clingo import Control
 
 
 class AspifSymbolicPrinter:
-    def display(self):
+    def flush(self):
         pass
 
 
 class AspifPrinter:
-    def display(self):
+    def flush(self):
         pass
 
 
@@ -33,5 +33,5 @@ if __name__ == "__main__":
         ctl.load("-")
     ctl.register_observer(printer)
     ctl.ground([("base", [])])
-    printer.display()
+    printer.flush()
 
