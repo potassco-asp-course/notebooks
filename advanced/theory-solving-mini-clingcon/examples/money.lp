@@ -12,8 +12,10 @@ letter(s;e;n;d;m;o;r;y).
 &sum { m } != 0.
 
 % distinct letter values
-{ less(X,Y); less(Y,X) } = 1 :- letter(X), letter(Y), X < Y. 
-&sum { X } < Y :- less(X,Y).
+&sum { less(X,Y) } >= 0            :- letter(X), letter(Y), X < Y.
+&sum { less(X,Y) } <= 1            :- letter(X), letter(Y), X < Y.
+&sum { X - Y + 10*less(X,Y) } >  0 :- letter(X), letter(Y), X < Y.
+&sum { X - Y + 10*less(X,Y) } < 10 :- letter(X), letter(Y), X < Y.
 
 % display
 #show.
