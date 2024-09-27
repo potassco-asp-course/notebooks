@@ -13,10 +13,10 @@ step(0..end).
 {move(T)} :- step(T); T > 0.
 
 % effects
-&sum {at(T-1); stepsize} = at(T) :- move(T).
+&sum {at(T-1); stepsize; -at(T)} = 0 :- move(T).
 
 % frame axiom
-&sum {at(T-1)} = at(T) :- not move(T); step(T); step(T-1).
+&sum {at(T-1); -at(T)} = 0 :- not move(T); step(T); step(T-1).
 
 % goals
 &sum {at(end)} >= 20.
