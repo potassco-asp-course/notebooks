@@ -7,5 +7,3 @@ dependencies:
   - python=3.9
   - ipython=7.19
   - clingo
-  - clingraph
-  - imageio=2.28
