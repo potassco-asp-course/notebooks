@@ -2,7 +2,10 @@
 atom(A) :- literal(C,V,A).
 
 % generate possible truth assignments
-{ holds(pos,A); holds(neg,A) } = 1 :- atom(A).
+{ holds(pos,A) } :- atom(A).
+{ holds(neg,A) } :- atom(A).
+%
+:- atom(A), { holds(pos,A); holds(neg,A) } != 1.
 
 % define when a clause C is satisfied
 satisfied(C) :- literal(C,V,A), holds(V,A).
