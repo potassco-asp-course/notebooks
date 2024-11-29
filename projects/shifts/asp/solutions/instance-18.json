@@ -1,0 +1,24 @@
+{
+  "Solver": "clingo version 5.7.1",
+  "Input": [
+    "shifts.lp","instances/instance-18.lp"
+  ],
+  "Call": [
+    {
+
+    }
+  ],
+  "Result": "UNSATISFIABLE",
+  "Models": {
+    "Number": 0,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 2.342,
+    "Solve": 0.016,
+    "Model": 0.000,
+    "Unsat": 0.016,
+    "CPU": 2.296
+  }
+}

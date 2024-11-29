@@ -1,0 +1,30 @@
+{
+  "Solver": "clingo version 5.7.1",
+  "Input": [
+    "shifts.lp","instances/instance-15.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "shift(2,2,1,4)", "shift(6,2,1,4)", "shift(10,2,1,4)", "shift(14,2,1,4)", "shift(2,2,2,4)", "shift(6,2,2,4)", "shift(10,2,2,4)", "shift(14,2,2,4)", "shift(2,2,3,4)", "shift(6,2,3,4)", "shift(10,2,3,4)", "shift(14,2,3,4)", "shift(2,2,4,4)", "shift(6,2,4,4)", "shift(10,2,4,4)", "shift(14,2,4,4)", "shift(2,2,5,4)", "shift(6,2,5,4)", "shift(10,2,5,4)", "shift(14,2,5,4)", "shift(2,2,6,4)", "shift(6,2,6,4)", "shift(10,2,6,4)", "shift(14,2,6,4)", "shift(2,2,7,4)", "shift(6,2,7,4)", "shift(10,2,7,4)", "shift(14,2,7,4)", "shift(2,2,8,4)", "shift(6,2,8,4)", "shift(10,2,8,4)", "shift(14,2,8,4)", "shift(2,2,9,4)", "shift(6,2,9,4)", "shift(10,2,9,4)", "shift(14,2,9,4)", "shift(2,2,10,4)", "shift(6,2,10,4)", "shift(10,2,10,4)", "shift(14,2,10,4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 1,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.106,
+    "Solve": 0.004,
+    "Model": 0.002,
+    "Unsat": 0.002,
+    "CPU": 0.105
+  }
+}
