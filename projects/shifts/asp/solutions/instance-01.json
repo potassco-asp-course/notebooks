@@ -1,0 +1,30 @@
+{
+  "Solver": "clingo version 5.7.1",
+  "Input": [
+    "shifts.lp","instances/instance-01.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "shift(1,8,1,4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 1,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.011,
+    "Solve": 0.000,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.008
+  }
+}
