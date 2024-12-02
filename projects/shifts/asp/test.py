@@ -2,7 +2,6 @@ import sys
 import shutil
 from subprocess import run, PIPE, TimeoutExpired
 import os
-import tempfile
 import json
 import time
 import argparse
@@ -16,51 +15,52 @@ def call_clingo(clingo, input_names, timeout):
         raise RuntimeError("Clingo: %s" % output.stderr)
     return output.stdout, end-start
 
-def check_result(output, expected):
-    result = output['Result']
-    solutions = []
-    if not result.startswith('UNSAT'):
-        solutions = [w['Value'] for w in output['Call'][len(output['Call'])-1]['Witnesses']]
-    return result.startswith(expected), solutions
+def get_solutions(output):
+    if output['Result'] == 'UNSATISFIABLE':
+        return []
+    return [w['Value'] for w in output['Call'][len(output['Call'])-1]['Witnesses']]
 
 def test_instance(args,instance):
-    if args.optimize:
+    
+    # call clingo
+    if args.optimize: # TODO: check this!
         expected = "OPT"
         opt = [args.encoding, args.instances+instance, args.dummy+"dummy.lp"]
     else:
         expected = "SAT"
-        opt = [args.encoding, args.instances+instance, "925"]
+        opt = [args.encoding, args.instances+instance, "1000"] # at most 1000 models
     try:
         stdout, time = call_clingo(args.clingo, opt, args.timeout)
         output = json.loads(stdout)
     except RuntimeError as e:
         raise e
-    ok, solutions = check_result(output, expected)
-    if not ok:
-        return False, time
 
+    # get clingo solutions sorted
+    solutions = get_solutions(output)
     for s in solutions:
         s.sort()
+    solutions.sort()
 
+    # get reference solutions sorted
     inst_sol = instance[:-2]+"json"
-    with open(args.solutions+inst_sol,"r") as infile:
+    with open(args.solutions + inst_sol, "r") as infile:
         output = json.load(infile)
-    ok, ref_solutions = check_result(output, expected)
+    ref_solutions = get_solutions(output)
     for s in ref_solutions:
         s.sort()
     ref_solutions.sort()
+    
+    # check
     if args.optimize:
         return solutions[-1] in ref_solutions, time
     else:
-        solutions.sort()
         return solutions == ref_solutions, time
 
 def test(args):
     #loop over all instances
-    instances_dir= os.listdir(args.instances)
+    instances_dir = os.listdir(args.instances)
     instances_dir.sort()
     success = True
-    message = ""
     for instance in instances_dir:
         result = 0
         error = False
@@ -75,15 +75,16 @@ def test(args):
             else:
                 result = "error\n"
                 error = e
-        message += "$"+instance+ ": "
+        message = instance + ": "
         if result:
             message += result
             if error:
                 message += str(error)+"\n"
         else:
             message += "success" if res else "failure"
-            message += " in "+str(1000*time)[:7]+" ms\n"
-    return success, message
+            message += " in "+ str(time)[:7] + "s\n"
+        sys.stdout.write(message)
+    return success
 
 def parse():
     parser = argparse.ArgumentParser(
@@ -114,22 +115,21 @@ def parse():
     if not os.path.isdir(args.solutions):
         raise IOError("directory %s not found!" % args.solutions)
     if args.instances[-1] != "/":
-        args.instances+="/"
+        args.instances += "/"
     if args.solutions[-1] != "/":
-        args.solutions+="/"
+        args.solutions += "/"
     return args
 
 def main():
     if sys.version_info < (3, 5):
         raise SystemExit('Sorry, this code need Python 3.5 or higher')
     try:
-        args=parse()
-        success, message = test(args)
+        args = parse()
+        success = test(args)
         if success:
-            message += "SUCCESS\n"
+            sys.stdout.write("SUCCESS\n")
         else:
-            message += "FAILURE\n"
-        sys.stdout.write(message)
+            sys.stdout.write("FAILURE\n")
     except Exception as e:
         sys.stderr.write("ERROR: %s\n" % str(e))
         return 1
