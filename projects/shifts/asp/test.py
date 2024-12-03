@@ -91,7 +91,7 @@ def parse():
         description="Test ASP encodings"
     )
     parser.add_argument('--encoding', '-e', metavar='<file>',
-                        help='ASP encoding to test', required=True)
+                        help='ASP encoding', required=True)
     parser.add_argument('--timeout', '-t', metavar='N', type=int,
                         help='Time allocated to each instance', required=True)
     parser.add_argument('--instances', '-i', metavar='<path>',
@@ -99,21 +99,21 @@ def parse():
     parser.add_argument('--solutions', '-s', metavar='<path>',
                         help='Directory of the solutions', default="asp/solutions/", required=False)
     parser.add_argument('--clingo', '-c', metavar='<path>',
-                        help='Clingo to use', default="clingo", required=False)
+                        help='Clingo binary', default="clingo", required=False)
     parser.add_argument('--optimize', '-opt', action='store_const', const=True,
                         help='Use this option for optimization problems', default=False, required=False)
     parser.add_argument('--dummy', '-d', metavar='<dir>',
-                        help='Path to dummy.lp. Necessary for optimization problems',
+                        help='Path to file dummy.lp. This is necessary for optimization problems',
                         default="asp/", required=False)
     args = parser.parse_args()
     if shutil.which(args.clingo) is None:
-        raise IOError("file %s not found!" % args.clingo)
+        raise IOError("File %s not found!" % args.clingo)
     if not os.path.isfile(args.encoding):
-        raise IOError("file %s not found!" % args.encoding)
+        raise IOError("File %s not found!" % args.encoding)
     if not os.path.isdir(args.instances):
-        raise IOError("directory %s not found!" % args.instances)
+        raise IOError("Directory %s not found!" % args.instances)
     if not os.path.isdir(args.solutions):
-        raise IOError("directory %s not found!" % args.solutions)
+        raise IOError("Directory %s not found!" % args.solutions)
     if args.instances[-1] != "/":
         args.instances += "/"
     if args.solutions[-1] != "/":
@@ -122,7 +122,7 @@ def parse():
 
 def main():
     if sys.version_info < (3, 5):
-        raise SystemExit('Sorry, this code need Python 3.5 or higher')
+        raise SystemExit('This program needs Python 3.5 or a higher version')
     try:
         args = parse()
         success = test(args)
