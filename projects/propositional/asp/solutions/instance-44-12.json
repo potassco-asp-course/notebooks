@@ -1,0 +1,90 @@
+{
+  "Solver": "clingo version 5.7.1",
+  "Input": [
+    "propositional.lp","asp/instances/instance-44-12.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,k)", "for(12,atom,c)", "for(11,neg,12)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(1,and,2)", "for(7,and,10)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,k)", "for(12,atom,p)", "for(11,neg,12)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(1,and,2)", "for(7,and,10)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,k)", "for(12,atom,p)", "for(11,neg,12)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(1,and,2)", "for(7,and,10)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,k)", "for(12,atom,c)", "for(11,neg,12)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(1,and,2)", "for(7,and,10)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,k)", "for(12,atom,p)", "for(11,neg,12)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(1,and,2)", "for(7,and,10)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,k)", "for(12,atom,c)", "for(11,neg,12)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(1,and,2)", "for(7,and,10)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(8,atom,k)", "for(10,atom,h)", "for(11,atom,j)", "for(12,atom,c)", "for(9,neg,12)", "for(2,or,4)", "for(3,or,6)", "for(7,or,10)", "for(1,and,2)", "for(5,and,8)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(8,atom,k)", "for(10,atom,h)", "for(11,atom,j)", "for(12,atom,p)", "for(9,neg,12)", "for(2,or,4)", "for(3,or,6)", "for(7,or,10)", "for(1,and,2)", "for(5,and,8)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(8,atom,k)", "for(10,atom,j)", "for(11,atom,v)", "for(12,atom,c)", "for(9,neg,12)", "for(2,or,4)", "for(3,or,6)", "for(7,or,10)", "for(1,and,2)", "for(5,and,8)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(8,atom,k)", "for(10,atom,j)", "for(11,atom,v)", "for(12,atom,p)", "for(9,neg,12)", "for(2,or,4)", "for(3,or,6)", "for(7,or,10)", "for(1,and,2)", "for(5,and,8)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,j)", "for(8,atom,k)", "for(10,atom,h)", "for(11,atom,v)", "for(12,atom,p)", "for(9,neg,12)", "for(2,or,4)", "for(3,or,6)", "for(7,or,10)", "for(1,and,2)", "for(5,and,8)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,j)", "for(8,atom,k)", "for(10,atom,h)", "for(11,atom,v)", "for(12,atom,c)", "for(9,neg,12)", "for(2,or,4)", "for(3,or,6)", "for(7,or,10)", "for(1,and,2)", "for(5,and,8)"
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "OPTIMUM FOUND",
+  "Models": {
+    "Number": 32,
+    "More": "no",
+    "Optimum": "yes",
+    "Optimal": 12,
+    "Costs": [
+      2
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 10.214,
+    "Solve": 10.194,
+    "Model": 0.002,
+    "Unsat": 3.352,
+    "CPU": 10.214
+  }
+}

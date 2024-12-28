@@ -1,0 +1,1470 @@
+{
+  "Solver": "clingo version 5.7.1",
+  "Input": [
+    "propositional.lp","asp/instances/instance-44-15.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "for(4,atom,j)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,m)", "for(12,atom,r)", "for(13,atom,p)", "for(15,atom,k)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,m)", "for(12,atom,r)", "for(13,atom,c)", "for(15,atom,k)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(8,atom,j)", "for(9,atom,v)", "for(11,atom,m)", "for(12,atom,r)", "for(13,atom,p)", "for(15,atom,k)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(8,atom,j)", "for(9,atom,v)", "for(11,atom,m)", "for(12,atom,r)", "for(13,atom,c)", "for(15,atom,k)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,e)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,e)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,e)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,a)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,a)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,a)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(8,atom,j)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(8,atom,a)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(8,atom,e)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(8,atom,e)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(8,atom,e)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(8,atom,a)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(8,atom,a)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(8,atom,j)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(8,atom,j)", "for(9,atom,v)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,k)", "for(12,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,k)", "for(12,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,k)", "for(12,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(8,atom,j)", "for(9,atom,v)", "for(11,atom,k)", "for(12,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(8,atom,j)", "for(9,atom,v)", "for(11,atom,k)", "for(12,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(8,atom,j)", "for(9,atom,v)", "for(11,atom,k)", "for(12,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(8,atom,e)", "for(9,atom,h)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(8,atom,e)", "for(9,atom,h)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(8,atom,a)", "for(9,atom,h)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(8,atom,a)", "for(9,atom,h)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(8,atom,e)", "for(9,atom,h)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(8,atom,a)", "for(9,atom,h)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(8,atom,h)", "for(9,atom,j)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(8,atom,h)", "for(9,atom,j)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(8,atom,h)", "for(9,atom,j)", "for(11,atom,f)", "for(12,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(8,atom,h)", "for(9,atom,j)", "for(11,atom,m)", "for(12,atom,r)", "for(13,atom,c)", "for(15,atom,k)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(8,atom,h)", "for(9,atom,j)", "for(11,atom,m)", "for(12,atom,r)", "for(13,atom,p)", "for(15,atom,k)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(8,atom,h)", "for(9,atom,j)", "for(11,atom,k)", "for(12,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(8,atom,h)", "for(9,atom,j)", "for(11,atom,k)", "for(12,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(8,atom,h)", "for(9,atom,j)", "for(11,atom,k)", "for(12,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(6,neg,10)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,11)", "for(10,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,u)", "for(7,neg,10)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(10,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,j)", "for(9,atom,v)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,u)", "for(7,neg,10)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(10,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,c)", "for(14,atom,b)", "for(15,atom,k)", "for(7,neg,10)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(10,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,j)", "for(9,atom,v)", "for(11,atom,c)", "for(14,atom,b)", "for(15,atom,k)", "for(7,neg,10)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(10,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,r)", "for(7,neg,10)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(10,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,j)", "for(9,atom,v)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,r)", "for(7,neg,10)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(10,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,p)", "for(7,neg,10)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(10,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,j)", "for(9,atom,v)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,p)", "for(7,neg,10)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(10,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,r)", "for(13,atom,p)", "for(15,atom,k)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,r)", "for(13,atom,c)", "for(15,atom,k)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,r)", "for(13,atom,p)", "for(15,atom,k)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,r)", "for(13,atom,c)", "for(15,atom,k)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,r)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,p)", "for(15,atom,k)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,r)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,c)", "for(15,atom,k)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,r)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,p)", "for(15,atom,k)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,r)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,c)", "for(15,atom,k)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,a)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,a)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,a)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,e)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,e)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,e)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,e)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,e)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,e)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,a)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,a)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,a)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,f)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,f)", "for(8,atom,a)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,f)", "for(8,atom,a)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,f)", "for(8,atom,a)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,f)", "for(8,atom,e)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,f)", "for(8,atom,e)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,f)", "for(8,atom,e)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,e)", "for(6,atom,f)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,e)", "for(6,atom,f)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,e)", "for(6,atom,f)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,a)", "for(6,atom,f)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,a)", "for(6,atom,f)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,a)", "for(6,atom,f)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,f)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,f)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,f)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,f)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,f)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,f)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,k)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,k)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,k)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,k)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,k)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,k)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,k)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,k)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,j)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(10,atom,k)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,k)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,k)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(6,atom,m)", "for(8,atom,j)", "for(9,atom,v)", "for(10,atom,k)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(8,atom,r)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,c)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(8,atom,r)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,p)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,r)", "for(6,atom,v)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,c)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,r)", "for(6,atom,v)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,p)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,v)", "for(8,atom,m)", "for(10,atom,a)", "for(11,atom,h)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,v)", "for(8,atom,m)", "for(10,atom,a)", "for(11,atom,h)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,v)", "for(8,atom,m)", "for(10,atom,a)", "for(11,atom,h)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(8,atom,f)", "for(10,atom,a)", "for(11,atom,h)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(8,atom,f)", "for(10,atom,a)", "for(11,atom,h)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(8,atom,f)", "for(10,atom,a)", "for(11,atom,h)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,v)", "for(8,atom,m)", "for(10,atom,e)", "for(11,atom,h)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,v)", "for(8,atom,m)", "for(10,atom,e)", "for(11,atom,h)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,v)", "for(8,atom,m)", "for(10,atom,e)", "for(11,atom,h)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(8,atom,f)", "for(10,atom,e)", "for(11,atom,h)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(8,atom,f)", "for(10,atom,e)", "for(11,atom,h)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(8,atom,f)", "for(10,atom,e)", "for(11,atom,h)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,v)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,v)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,v)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(8,atom,f)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(8,atom,f)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(8,atom,f)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,k)", "for(6,atom,v)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,k)", "for(6,atom,v)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,k)", "for(6,atom,v)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(8,atom,k)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(8,atom,k)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(8,atom,k)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,r)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,m)", "for(13,atom,c)", "for(15,atom,k)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,r)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,m)", "for(13,atom,p)", "for(15,atom,k)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,r)", "for(13,atom,c)", "for(15,atom,k)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,r)", "for(13,atom,p)", "for(15,atom,k)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,f)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,f)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,f)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,f)", "for(8,atom,a)", "for(9,atom,h)", "for(10,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,f)", "for(8,atom,a)", "for(9,atom,h)", "for(10,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,f)", "for(8,atom,a)", "for(9,atom,h)", "for(10,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,f)", "for(8,atom,e)", "for(9,atom,h)", "for(10,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,f)", "for(8,atom,e)", "for(9,atom,h)", "for(10,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,f)", "for(8,atom,e)", "for(9,atom,h)", "for(10,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,f)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,f)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,f)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,a)", "for(9,atom,h)", "for(10,atom,f)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,a)", "for(9,atom,h)", "for(10,atom,f)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,a)", "for(9,atom,h)", "for(10,atom,f)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,e)", "for(9,atom,h)", "for(10,atom,f)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,e)", "for(9,atom,h)", "for(10,atom,f)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,e)", "for(9,atom,h)", "for(10,atom,f)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,k)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,m)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,k)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,m)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,k)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,m)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,k)", "for(13,atom,e)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,k)", "for(13,atom,a)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,j)", "for(10,atom,k)", "for(13,atom,j)", "for(15,atom,g)", "for(11,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,j)", "for(8,atom,r)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,c)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,j)", "for(8,atom,r)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,p)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,r)", "for(6,atom,j)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,c)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,r)", "for(6,atom,j)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,p)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(8,atom,r)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,c)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(8,atom,r)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,p)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,r)", "for(6,atom,h)", "for(8,atom,m)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,c)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,r)", "for(6,atom,h)", "for(8,atom,m)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,p)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,a)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,a)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,a)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,a)", "for(8,atom,f)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,a)", "for(8,atom,f)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,a)", "for(8,atom,f)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,h)", "for(8,atom,m)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,h)", "for(8,atom,m)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,h)", "for(8,atom,m)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(8,atom,f)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(8,atom,f)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(8,atom,f)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,h)", "for(8,atom,m)", "for(10,atom,a)", "for(11,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,h)", "for(8,atom,m)", "for(10,atom,a)", "for(11,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,h)", "for(8,atom,m)", "for(10,atom,a)", "for(11,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(8,atom,f)", "for(10,atom,a)", "for(11,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(8,atom,f)", "for(10,atom,a)", "for(11,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(8,atom,f)", "for(10,atom,a)", "for(11,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,h)", "for(8,atom,m)", "for(10,atom,e)", "for(11,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,h)", "for(8,atom,m)", "for(10,atom,e)", "for(11,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,h)", "for(8,atom,m)", "for(10,atom,e)", "for(11,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(8,atom,f)", "for(10,atom,e)", "for(11,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(8,atom,f)", "for(10,atom,e)", "for(11,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(8,atom,f)", "for(10,atom,e)", "for(11,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,e)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,e)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,e)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,e)", "for(8,atom,f)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,e)", "for(8,atom,f)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,e)", "for(8,atom,f)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,j)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,j)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,f)", "for(6,atom,j)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,j)", "for(8,atom,f)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,j)", "for(8,atom,f)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,j)", "for(8,atom,f)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(8,atom,k)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(8,atom,k)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(8,atom,k)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,k)", "for(6,atom,h)", "for(8,atom,m)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,k)", "for(6,atom,h)", "for(8,atom,m)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,k)", "for(6,atom,h)", "for(8,atom,m)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,j)", "for(8,atom,k)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,j)", "for(8,atom,k)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,j)", "for(8,atom,k)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,k)", "for(6,atom,j)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,k)", "for(6,atom,j)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,k)", "for(6,atom,j)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(9,neg,12)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,j)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,p)", "for(7,neg,10)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(10,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,j)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,r)", "for(7,neg,10)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(10,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,j)", "for(11,atom,c)", "for(14,atom,b)", "for(15,atom,k)", "for(7,neg,10)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(10,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,v)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,j)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,u)", "for(7,neg,10)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(5,or,8)", "for(10,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,r)", "for(6,atom,v)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,c)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,r)", "for(6,atom,v)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,j)", "for(13,atom,p)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,r)", "for(6,atom,m)", "for(8,atom,j)", "for(11,atom,h)", "for(12,atom,v)", "for(13,atom,p)", "for(15,atom,k)", "for(7,neg,10)", "for(14,neg,15)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(9,or,11)", "for(10,or,13)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,r)", "for(6,atom,m)", "for(8,atom,j)", "for(11,atom,h)", "for(12,atom,v)", "for(13,atom,c)", "for(15,atom,k)", "for(7,neg,10)", "for(14,neg,15)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(9,or,11)", "for(10,or,13)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,r)", "for(6,atom,m)", "for(8,atom,v)", "for(11,atom,h)", "for(12,atom,j)", "for(13,atom,p)", "for(15,atom,k)", "for(7,neg,10)", "for(14,neg,15)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(9,or,11)", "for(10,or,13)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,r)", "for(6,atom,m)", "for(8,atom,v)", "for(11,atom,h)", "for(12,atom,j)", "for(13,atom,c)", "for(15,atom,k)", "for(7,neg,10)", "for(14,neg,15)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(9,or,11)", "for(10,or,13)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,r)", "for(6,atom,m)", "for(8,atom,h)", "for(11,atom,j)", "for(12,atom,v)", "for(13,atom,c)", "for(15,atom,k)", "for(7,neg,10)", "for(14,neg,15)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(9,or,11)", "for(10,or,13)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,r)", "for(6,atom,m)", "for(8,atom,h)", "for(11,atom,j)", "for(12,atom,v)", "for(13,atom,p)", "for(15,atom,k)", "for(7,neg,10)", "for(14,neg,15)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(9,or,11)", "for(10,or,13)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,r)", "for(6,atom,j)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,c)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,r)", "for(6,atom,j)", "for(8,atom,m)", "for(10,atom,h)", "for(11,atom,v)", "for(13,atom,p)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,r)", "for(6,atom,h)", "for(8,atom,m)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,c)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,r)", "for(6,atom,h)", "for(8,atom,m)", "for(10,atom,j)", "for(11,atom,v)", "for(13,atom,p)", "for(15,atom,k)", "for(9,neg,12)", "for(14,neg,15)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(7,or,10)", "for(12,or,13)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,v)", "for(9,atom,m)", "for(10,atom,r)", "for(11,atom,h)", "for(12,atom,j)", "for(13,atom,c)", "for(15,atom,k)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,v)", "for(9,atom,m)", "for(10,atom,r)", "for(11,atom,h)", "for(12,atom,j)", "for(13,atom,p)", "for(15,atom,k)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,h)", "for(9,atom,m)", "for(10,atom,r)", "for(11,atom,j)", "for(12,atom,v)", "for(13,atom,p)", "for(15,atom,k)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,h)", "for(9,atom,m)", "for(10,atom,r)", "for(11,atom,j)", "for(12,atom,v)", "for(13,atom,c)", "for(15,atom,k)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,j)", "for(9,atom,m)", "for(10,atom,r)", "for(11,atom,h)", "for(12,atom,v)", "for(13,atom,c)", "for(15,atom,k)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,j)", "for(9,atom,m)", "for(10,atom,r)", "for(11,atom,h)", "for(12,atom,v)", "for(13,atom,p)", "for(15,atom,k)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,v)", "for(9,atom,k)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,j)", "for(13,atom,e)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,v)", "for(9,atom,k)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,j)", "for(13,atom,a)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,v)", "for(9,atom,k)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,j)", "for(13,atom,j)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,j)", "for(9,atom,k)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,j)", "for(9,atom,k)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,j)", "for(9,atom,k)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,h)", "for(9,atom,k)", "for(10,atom,m)", "for(11,atom,j)", "for(12,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,h)", "for(9,atom,k)", "for(10,atom,m)", "for(11,atom,j)", "for(12,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,h)", "for(9,atom,k)", "for(10,atom,m)", "for(11,atom,j)", "for(12,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,v)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,e)", "for(12,atom,h)", "for(13,atom,e)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,v)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,e)", "for(12,atom,h)", "for(13,atom,a)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,v)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,e)", "for(12,atom,h)", "for(13,atom,j)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,v)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,a)", "for(12,atom,h)", "for(13,atom,e)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,v)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,a)", "for(12,atom,h)", "for(13,atom,a)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,v)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,a)", "for(12,atom,h)", "for(13,atom,j)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,v)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,j)", "for(13,atom,e)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,v)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,j)", "for(13,atom,a)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,v)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,j)", "for(13,atom,j)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,a)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,a)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,a)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,e)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,e)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,e)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,j)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,j)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,j)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,h)", "for(12,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,h)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,e)", "for(12,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,h)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,e)", "for(12,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,h)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,e)", "for(12,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,h)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,a)", "for(12,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,h)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,a)", "for(12,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,h)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,a)", "for(12,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,h)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,j)", "for(12,atom,v)", "for(13,atom,e)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,h)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,j)", "for(12,atom,v)", "for(13,atom,a)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(6,atom,h)", "for(9,atom,f)", "for(10,atom,m)", "for(11,atom,j)", "for(12,atom,v)", "for(13,atom,j)", "for(15,atom,g)", "for(4,neg,8)", "for(14,neg,15)", "for(2,or,4)", "for(3,or,6)", "for(5,or,9)", "for(7,or,11)", "for(8,or,13)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(9,atom,h)", "for(10,atom,j)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,p)", "for(5,neg,8)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(7,or,9)", "for(8,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(9,atom,h)", "for(10,atom,j)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,r)", "for(5,neg,8)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(7,or,9)", "for(8,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(9,atom,h)", "for(10,atom,j)", "for(11,atom,c)", "for(14,atom,b)", "for(15,atom,k)", "for(5,neg,8)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(7,or,9)", "for(8,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,v)", "for(9,atom,h)", "for(10,atom,j)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,u)", "for(5,neg,8)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(7,or,9)", "for(8,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,j)", "for(9,atom,h)", "for(10,atom,v)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,r)", "for(5,neg,8)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(7,or,9)", "for(8,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,j)", "for(9,atom,h)", "for(10,atom,v)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,p)", "for(5,neg,8)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(7,or,9)", "for(8,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,j)", "for(9,atom,h)", "for(10,atom,v)", "for(11,atom,c)", "for(14,atom,b)", "for(15,atom,k)", "for(5,neg,8)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(7,or,9)", "for(8,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,j)", "for(9,atom,h)", "for(10,atom,v)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,u)", "for(5,neg,8)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(7,or,9)", "for(8,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(9,atom,j)", "for(10,atom,v)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,r)", "for(5,neg,8)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(7,or,9)", "for(8,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(9,atom,j)", "for(10,atom,v)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,p)", "for(5,neg,8)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(7,or,9)", "for(8,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(9,atom,j)", "for(10,atom,v)", "for(11,atom,c)", "for(14,atom,b)", "for(15,atom,k)", "for(5,neg,8)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(7,or,9)", "for(8,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(9,atom,j)", "for(10,atom,v)", "for(11,atom,c)", "for(14,atom,k)", "for(15,atom,u)", "for(5,neg,8)", "for(12,neg,13)", "for(2,or,4)", "for(3,or,6)", "for(7,or,9)", "for(8,or,11)", "for(13,or,14)", "for(1,and,2)"
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "OPTIMUM FOUND",
+  "Models": {
+    "Number": 303,
+    "More": "no",
+    "Optimum": "yes",
+    "Optimal": 288,
+    "Costs": [
+      1
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 53.488,
+    "Solve": 53.459,
+    "Model": 0.002,
+    "Unsat": 38.101,
+    "CPU": 53.488
+  }
+}

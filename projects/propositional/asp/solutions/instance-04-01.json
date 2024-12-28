@@ -1,0 +1,40 @@
+{
+  "Solver": "clingo version 5.7.1",
+  "Input": [
+    "propositional.lp","asp/instances/instance-04-01.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "for(1,atom,c)"
+          ]
+        },
+        {
+          "Value": [
+            "for(1,atom,h)"
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "OPTIMUM FOUND",
+  "Models": {
+    "Number": 4,
+    "More": "no",
+    "Optimum": "yes",
+    "Optimal": 2,
+    "Costs": [
+      0
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.002,
+    "Solve": 0.000,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.002
+  }
+}

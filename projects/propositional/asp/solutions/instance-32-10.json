@@ -1,0 +1,60 @@
+{
+  "Solver": "clingo version 5.7.1",
+  "Input": [
+    "propositional.lp","asp/instances/instance-32-10.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "for(4,atom,h)", "for(5,atom,v)", "for(6,atom,m)", "for(9,atom,a)", "for(10,atom,d)", "for(7,neg,8)", "for(2,or,4)", "for(3,or,6)", "for(8,or,9)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(5,atom,v)", "for(6,atom,m)", "for(9,atom,d)", "for(10,atom,e)", "for(7,neg,8)", "for(2,or,4)", "for(3,or,6)", "for(8,or,9)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,h)", "for(5,atom,v)", "for(6,atom,m)", "for(9,atom,d)", "for(10,atom,j)", "for(7,neg,8)", "for(2,or,4)", "for(3,or,6)", "for(8,or,9)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(7,atom,v)", "for(9,atom,a)", "for(10,atom,d)", "for(5,neg,8)", "for(2,or,4)", "for(3,or,6)", "for(8,or,9)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(7,atom,v)", "for(9,atom,d)", "for(10,atom,e)", "for(5,neg,8)", "for(2,or,4)", "for(3,or,6)", "for(8,or,9)", "for(1,and,2)"
+          ]
+        },
+        {
+          "Value": [
+            "for(4,atom,m)", "for(6,atom,h)", "for(7,atom,v)", "for(9,atom,d)", "for(10,atom,j)", "for(5,neg,8)", "for(2,or,4)", "for(3,or,6)", "for(8,or,9)", "for(1,and,2)"
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "OPTIMUM FOUND",
+  "Models": {
+    "Number": 17,
+    "More": "no",
+    "Optimum": "yes",
+    "Optimal": 6,
+    "Costs": [
+      1
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.402,
+    "Solve": 0.389,
+    "Model": 0.001,
+    "Unsat": 0.158,
+    "CPU": 0.401
+  }
+}

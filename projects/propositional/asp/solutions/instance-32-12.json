@@ -1,0 +1,60 @@
+{
+  "Solver": "clingo version 5.7.1",
+  "Input": [
+    "propositional.lp","asp/instances/instance-32-12.lp"
+  ],
+  "Call": [
+    {
+      "Witnesses": [
+        {
+          "Value": [
+            "for(2,atom,q)", "for(6,atom,h)", "for(7,atom,v)", "for(8,atom,m)", "for(11,atom,d)", "for(12,atom,e)", "for(9,neg,10)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(10,or,11)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,q)", "for(6,atom,h)", "for(7,atom,v)", "for(8,atom,m)", "for(11,atom,a)", "for(12,atom,d)", "for(9,neg,10)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(10,or,11)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,q)", "for(6,atom,h)", "for(7,atom,v)", "for(8,atom,m)", "for(11,atom,d)", "for(12,atom,j)", "for(9,neg,10)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(10,or,11)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,q)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,d)", "for(12,atom,j)", "for(7,neg,10)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(10,or,11)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,q)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,d)", "for(12,atom,e)", "for(7,neg,10)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(10,or,11)", "for(3,and,4)"
+          ]
+        },
+        {
+          "Value": [
+            "for(2,atom,q)", "for(6,atom,m)", "for(8,atom,h)", "for(9,atom,v)", "for(11,atom,a)", "for(12,atom,d)", "for(7,neg,10)", "for(1,or,2)", "for(4,or,6)", "for(5,or,8)", "for(10,or,11)", "for(3,and,4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "Result": "OPTIMUM FOUND",
+  "Models": {
+    "Number": 21,
+    "More": "no",
+    "Optimum": "yes",
+    "Optimal": 6,
+    "Costs": [
+      0
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.643,
+    "Solve": 0.627,
+    "Model": 0.001,
+    "Unsat": 0.032,
+    "CPU": 0.643
+  }
+}
