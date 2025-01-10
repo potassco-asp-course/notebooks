@@ -46,7 +46,7 @@ def test_instance(args,instance):
             with NamedTemporaryFile(mode='w+') as dummy:
                 dummy.write(":~. [0]")
                 dummy.flush()
-                options += ["--opt-mode=optN", "--quiet=1,2", dummy.name]
+                options += ["--opt-mode=optN", "--quiet=1,2"]
                 stdout, time = call_clingo(args.clingo, options, args.timeout)
         else: # just call clingo
             stdout, time = call_clingo(args.clingo, options, args.timeout)
