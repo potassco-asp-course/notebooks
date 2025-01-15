@@ -43,11 +43,15 @@ def test_instance(args,instance):
     options = [ args.encoding, args.instances + instance, str(args.models) ] 
     try:
         if args.optimize: # add dummy file and extra options
-            with NamedTemporaryFile(mode='w+') as dummy:
+            dummy = NamedTemporaryFile(mode='w+', delete=False)  # Keep file after closing
+            try:
                 dummy.write(":~. [0]")
                 dummy.flush()
-                options += ["--opt-mode=optN", "--quiet=1,2"]
+                dummy.close()
+                options += ["--opt-mode=optN", "--quiet=1,2", dummy.name]
                 stdout, time = call_clingo(args.clingo, options, args.timeout)
+            finally:
+                os.unlink(dummy.name)    
         else: # just call clingo
             stdout, time = call_clingo(args.clingo, options, args.timeout)
         output = json.loads(stdout)
