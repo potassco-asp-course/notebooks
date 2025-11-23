@@ -1,0 +1,33 @@
+{
+  "Solver": "clingo version 5.8.0",
+  "Input": [
+    "taskplanning.lp","instances/instance-19.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Witnesses": [
+        {
+          "Time": 0.898,
+          "Value": [
+            "starts(1,1)", "starts(2,1)", "starts(3,1)", "starts(4,1)", "starts(5,1)", "starts(6,6)", "starts(7,6)", "starts(8,6)", "starts(9,6)", "starts(10,6)", "starts(11,11)", "starts(12,11)", "starts(13,11)", "starts(14,11)", "starts(15,11)", "starts(16,16)", "starts(17,16)", "starts(18,16)", "starts(19,16)", "starts(20,16)", "starts(21,21)", "starts(22,21)", "starts(23,21)", "starts(24,21)", "starts(25,21)", "starts(26,26)", "starts(27,26)", "starts(28,26)", "starts(29,26)", "starts(30,26)", "starts(31,31)", "starts(32,31)", "starts(33,31)", "starts(34,31)", "starts(35,31)", "starts(36,36)", "starts(37,36)", "starts(38,36)", "starts(39,36)", "starts(40,36)", "starts(41,41)", "starts(42,41)", "starts(43,41)", "starts(44,41)", "starts(45,41)", "starts(46,46)", "starts(47,46)", "starts(48,46)", "starts(49,46)", "starts(50,46)"
+          ]
+        }
+      ],
+      "Stop": 0.898
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 1,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.898,
+    "Solve": 0.054,
+    "Model": 0.053,
+    "Unsat": 0.000,
+    "CPU": 0.818
+  }
+}

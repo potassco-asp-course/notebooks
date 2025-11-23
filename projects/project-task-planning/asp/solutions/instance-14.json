@@ -1,0 +1,99 @@
+{
+  "Solver": "clingo version 5.8.0",
+  "Input": [
+    "taskplanning.lp","instances/instance-14.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Witnesses": [
+        {
+          "Time": 0.077,
+          "Value": [
+            "starts(3,13)", "starts(4,9)", "starts(7,13)", "starts(8,9)", "starts(1,1)", "starts(2,21)", "starts(5,1)", "starts(6,21)", "starts(9,5)", "starts(10,7)", "starts(11,9)", "starts(12,3)", "starts(13,11)", "starts(14,1)", "starts(15,7)", "starts(16,3)", "assign(1,2)", "assign(2,2)", "assign(5,5)", "assign(6,5)", "assign(4,3)", "assign(3,3)", "assign(8,6)", "assign(7,6)", "assign(15,8)", "assign(16,8)", "assign(7,7)", "assign(9,7)", "assign(10,7)", "assign(11,7)", "assign(12,7)", "assign(13,7)", "assign(14,7)", "assign(5,4)", "assign(6,4)", "assign(1,1)", "assign(2,1)", "assign(3,4)"
+          ]
+        },
+        {
+          "Time": 0.077,
+          "Value": [
+            "starts(3,13)", "starts(4,9)", "starts(7,13)", "starts(8,9)", "starts(1,1)", "starts(2,21)", "starts(5,1)", "starts(6,21)", "starts(9,5)", "starts(10,7)", "starts(11,9)", "starts(12,3)", "starts(13,11)", "starts(14,1)", "starts(15,7)", "starts(16,3)", "assign(1,2)", "assign(2,2)", "assign(5,5)", "assign(6,5)", "assign(4,3)", "assign(3,3)", "assign(8,6)", "assign(7,6)", "assign(15,8)", "assign(16,8)", "assign(9,7)", "assign(10,7)", "assign(11,7)", "assign(12,7)", "assign(13,7)", "assign(14,7)", "assign(5,4)", "assign(6,4)", "assign(7,4)", "assign(3,7)", "assign(1,1)", "assign(2,1)"
+          ]
+        },
+        {
+          "Time": 0.077,
+          "Value": [
+            "starts(3,13)", "starts(4,9)", "starts(7,13)", "starts(8,9)", "starts(1,1)", "starts(2,21)", "starts(5,1)", "starts(6,21)", "starts(9,5)", "starts(10,7)", "starts(11,9)", "starts(12,3)", "starts(13,11)", "starts(14,1)", "starts(15,7)", "starts(16,3)", "assign(1,2)", "assign(2,2)", "assign(5,5)", "assign(6,5)", "assign(4,3)", "assign(3,3)", "assign(8,6)", "assign(7,6)", "assign(15,8)", "assign(16,8)", "assign(9,7)", "assign(10,7)", "assign(11,7)", "assign(12,7)", "assign(13,7)", "assign(14,7)", "assign(5,4)", "assign(6,4)", "assign(7,4)", "assign(1,1)", "assign(2,1)", "assign(3,1)"
+          ]
+        },
+        {
+          "Time": 0.077,
+          "Value": [
+            "starts(3,13)", "starts(4,9)", "starts(7,13)", "starts(8,9)", "starts(1,1)", "starts(2,21)", "starts(5,1)", "starts(6,21)", "starts(9,5)", "starts(10,7)", "starts(11,9)", "starts(12,3)", "starts(13,11)", "starts(14,1)", "starts(15,7)", "starts(16,3)", "assign(1,2)", "assign(2,2)", "assign(5,5)", "assign(6,5)", "assign(4,3)", "assign(3,3)", "assign(8,6)", "assign(7,6)", "assign(15,8)", "assign(16,8)", "assign(7,7)", "assign(9,7)", "assign(10,7)", "assign(11,7)", "assign(12,7)", "assign(13,7)", "assign(14,7)", "assign(5,4)", "assign(6,4)", "assign(1,1)", "assign(2,1)", "assign(3,1)"
+          ]
+        },
+        {
+          "Time": 0.077,
+          "Value": [
+            "starts(3,13)", "starts(4,9)", "starts(7,13)", "starts(8,9)", "starts(1,1)", "starts(2,21)", "starts(5,1)", "starts(6,21)", "starts(9,5)", "starts(10,7)", "starts(11,9)", "starts(12,3)", "starts(13,11)", "starts(14,1)", "starts(15,7)", "starts(16,3)", "assign(1,2)", "assign(2,2)", "assign(5,5)", "assign(6,5)", "assign(4,3)", "assign(3,3)", "assign(8,6)", "assign(7,6)", "assign(15,8)", "assign(16,8)", "assign(9,7)", "assign(10,7)", "assign(11,7)", "assign(12,7)", "assign(13,7)", "assign(14,7)", "assign(7,1)", "assign(5,4)", "assign(6,4)", "assign(1,1)", "assign(2,1)", "assign(3,4)"
+          ]
+        },
+        {
+          "Time": 0.077,
+          "Value": [
+            "starts(3,13)", "starts(4,9)", "starts(7,13)", "starts(8,9)", "starts(1,1)", "starts(2,21)", "starts(5,1)", "starts(6,21)", "starts(9,5)", "starts(10,7)", "starts(11,9)", "starts(12,3)", "starts(13,11)", "starts(14,1)", "starts(15,7)", "starts(16,3)", "assign(1,2)", "assign(2,2)", "assign(5,5)", "assign(6,5)", "assign(4,3)", "assign(3,3)", "assign(8,6)", "assign(7,6)", "assign(15,8)", "assign(16,8)", "assign(9,7)", "assign(10,7)", "assign(11,7)", "assign(12,7)", "assign(13,7)", "assign(14,7)", "assign(7,1)", "assign(5,4)", "assign(6,4)", "assign(3,7)", "assign(1,1)", "assign(2,1)"
+          ]
+        },
+        {
+          "Time": 0.077,
+          "Value": [
+            "starts(3,13)", "starts(4,9)", "starts(7,13)", "starts(8,9)", "starts(1,1)", "starts(2,21)", "starts(5,1)", "starts(6,21)", "starts(9,5)", "starts(10,7)", "starts(11,9)", "starts(12,3)", "starts(13,11)", "starts(14,1)", "starts(15,7)", "starts(16,3)", "assign(1,2)", "assign(2,2)", "assign(5,5)", "assign(6,5)", "assign(4,3)", "assign(3,3)", "assign(8,6)", "assign(7,6)", "assign(7,8)", "assign(15,8)", "assign(16,8)", "assign(9,7)", "assign(10,7)", "assign(11,7)", "assign(12,7)", "assign(13,7)", "assign(14,7)", "assign(5,4)", "assign(6,4)", "assign(3,7)", "assign(1,1)", "assign(2,1)"
+          ]
+        },
+        {
+          "Time": 0.077,
+          "Value": [
+            "starts(3,13)", "starts(4,9)", "starts(7,13)", "starts(8,9)", "starts(1,1)", "starts(2,21)", "starts(5,1)", "starts(6,21)", "starts(9,5)", "starts(10,7)", "starts(11,9)", "starts(12,3)", "starts(13,11)", "starts(14,1)", "starts(15,7)", "starts(16,3)", "assign(1,2)", "assign(2,2)", "assign(5,5)", "assign(6,5)", "assign(4,3)", "assign(3,3)", "assign(8,6)", "assign(7,6)", "assign(7,8)", "assign(15,8)", "assign(16,8)", "assign(9,7)", "assign(10,7)", "assign(11,7)", "assign(12,7)", "assign(13,7)", "assign(14,7)", "assign(5,4)", "assign(6,4)", "assign(1,1)", "assign(2,1)", "assign(3,1)"
+          ]
+        },
+        {
+          "Time": 0.077,
+          "Value": [
+            "starts(3,13)", "starts(4,9)", "starts(7,13)", "starts(8,9)", "starts(1,1)", "starts(2,21)", "starts(5,1)", "starts(6,21)", "starts(9,5)", "starts(10,7)", "starts(11,9)", "starts(12,3)", "starts(13,11)", "starts(14,1)", "starts(15,7)", "starts(16,3)", "assign(1,2)", "assign(2,2)", "assign(5,5)", "assign(6,5)", "assign(4,3)", "assign(3,3)", "assign(8,6)", "assign(7,6)", "assign(7,8)", "assign(15,8)", "assign(16,8)", "assign(9,7)", "assign(10,7)", "assign(11,7)", "assign(12,7)", "assign(13,7)", "assign(14,7)", "assign(5,4)", "assign(6,4)", "assign(1,1)", "assign(2,1)", "assign(3,4)"
+          ]
+        },
+        {
+          "Time": 0.077,
+          "Value": [
+            "starts(3,13)", "starts(4,9)", "starts(7,13)", "starts(8,9)", "starts(1,1)", "starts(2,21)", "starts(5,1)", "starts(6,21)", "starts(9,5)", "starts(10,7)", "starts(11,9)", "starts(12,3)", "starts(13,11)", "starts(14,1)", "starts(15,7)", "starts(16,3)", "assign(1,2)", "assign(2,2)", "assign(5,5)", "assign(6,5)", "assign(4,3)", "assign(3,3)", "assign(8,6)", "assign(7,6)", "assign(3,8)", "assign(15,8)", "assign(16,8)", "assign(9,7)", "assign(10,7)", "assign(11,7)", "assign(12,7)", "assign(13,7)", "assign(14,7)", "assign(5,4)", "assign(6,4)", "assign(7,4)", "assign(1,1)", "assign(2,1)"
+          ]
+        },
+        {
+          "Time": 0.077,
+          "Value": [
+            "starts(3,13)", "starts(4,9)", "starts(7,13)", "starts(8,9)", "starts(1,1)", "starts(2,21)", "starts(5,1)", "starts(6,21)", "starts(9,5)", "starts(10,7)", "starts(11,9)", "starts(12,3)", "starts(13,11)", "starts(14,1)", "starts(15,7)", "starts(16,3)", "assign(1,2)", "assign(2,2)", "assign(5,5)", "assign(6,5)", "assign(4,3)", "assign(3,3)", "assign(8,6)", "assign(7,6)", "assign(3,8)", "assign(15,8)", "assign(16,8)", "assign(7,7)", "assign(9,7)", "assign(10,7)", "assign(11,7)", "assign(12,7)", "assign(13,7)", "assign(14,7)", "assign(5,4)", "assign(6,4)", "assign(1,1)", "assign(2,1)"
+          ]
+        },
+        {
+          "Time": 0.077,
+          "Value": [
+            "starts(3,13)", "starts(4,9)", "starts(7,13)", "starts(8,9)", "starts(1,1)", "starts(2,21)", "starts(5,1)", "starts(6,21)", "starts(9,5)", "starts(10,7)", "starts(11,9)", "starts(12,3)", "starts(13,11)", "starts(14,1)", "starts(15,7)", "starts(16,3)", "assign(1,2)", "assign(2,2)", "assign(5,5)", "assign(6,5)", "assign(4,3)", "assign(3,3)", "assign(8,6)", "assign(7,6)", "assign(3,8)", "assign(15,8)", "assign(16,8)", "assign(9,7)", "assign(10,7)", "assign(11,7)", "assign(12,7)", "assign(13,7)", "assign(14,7)", "assign(7,1)", "assign(5,4)", "assign(6,4)", "assign(1,1)", "assign(2,1)"
+          ]
+        }
+      ],
+      "Stop": 0.078
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 12,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.078,
+    "Solve": 0.001,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.073
+  }
+}

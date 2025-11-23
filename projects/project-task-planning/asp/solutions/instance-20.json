@@ -1,0 +1,33 @@
+{
+  "Solver": "clingo version 5.8.0",
+  "Input": [
+    "taskplanning.lp","instances/instance-20.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Witnesses": [
+        {
+          "Time": 6.332,
+          "Value": [
+            "starts(1,1)", "starts(2,1)", "starts(3,1)", "starts(4,1)", "starts(5,1)", "starts(6,6)", "starts(7,6)", "starts(8,6)", "starts(9,6)", "starts(10,6)", "starts(11,11)", "starts(12,11)", "starts(13,11)", "starts(14,11)", "starts(15,11)", "starts(16,16)", "starts(17,16)", "starts(18,16)", "starts(19,16)", "starts(20,16)", "starts(21,21)", "starts(22,21)", "starts(23,21)", "starts(24,21)", "starts(25,21)", "starts(26,26)", "starts(27,26)", "starts(28,26)", "starts(29,26)", "starts(30,26)", "starts(31,31)", "starts(32,31)", "starts(33,31)", "starts(34,31)", "starts(35,31)", "starts(36,36)", "starts(37,36)", "starts(38,36)", "starts(39,36)", "starts(40,36)", "starts(41,41)", "starts(42,41)", "starts(43,41)", "starts(44,41)", "starts(45,41)", "starts(46,46)", "starts(47,46)", "starts(48,46)", "starts(49,46)", "starts(50,46)", "assign(1,1)", "assign(6,1)", "assign(11,1)", "assign(16,1)", "assign(21,1)", "assign(26,1)", "assign(31,1)", "assign(36,1)", "assign(41,1)", "assign(46,1)", "assign(1,2)", "assign(6,2)", "assign(11,2)", "assign(16,2)", "assign(21,2)", "assign(26,2)", "assign(31,2)", "assign(36,2)", "assign(41,2)", "assign(46,2)", "assign(1,3)", "assign(6,3)", "assign(11,3)", "assign(16,3)", "assign(21,3)", "assign(26,3)", "assign(31,3)", "assign(36,3)", "assign(41,3)", "assign(46,3)", "assign(1,4)", "assign(6,4)", "assign(11,4)", "assign(16,4)", "assign(21,4)", "assign(26,4)", "assign(31,4)", "assign(36,4)", "assign(41,4)", "assign(46,4)", "assign(2,5)", "assign(7,5)", "assign(12,5)", "assign(17,5)", "assign(22,5)", "assign(27,5)", "assign(32,5)", "assign(37,5)", "assign(42,5)", "assign(47,5)", "assign(2,6)", "assign(7,6)", "assign(12,6)", "assign(17,6)", "assign(22,6)", "assign(27,6)", "assign(32,6)", "assign(37,6)", "assign(42,6)", "assign(47,6)", "assign(2,7)", "assign(7,7)", "assign(12,7)", "assign(17,7)", "assign(22,7)", "assign(27,7)", "assign(32,7)", "assign(37,7)", "assign(42,7)", "assign(47,7)", "assign(2,8)", "assign(7,8)", "assign(12,8)", "assign(17,8)", "assign(22,8)", "assign(27,8)", "assign(32,8)", "assign(37,8)", "assign(42,8)", "assign(47,8)", "assign(3,9)", "assign(8,9)", "assign(13,9)", "assign(18,9)", "assign(23,9)", "assign(28,9)", "assign(33,9)", "assign(38,9)", "assign(43,9)", "assign(48,9)", "assign(3,10)", "assign(8,10)", "assign(13,10)", "assign(18,10)", "assign(23,10)", "assign(28,10)", "assign(33,10)", "assign(38,10)", "assign(43,10)", "assign(48,10)", "assign(3,11)", "assign(8,11)", "assign(13,11)", "assign(18,11)", "assign(23,11)", "assign(28,11)", "assign(33,11)", "assign(38,11)", "assign(43,11)", "assign(48,11)", "assign(3,12)", "assign(8,12)", "assign(13,12)", "assign(18,12)", "assign(23,12)", "assign(28,12)", "assign(33,12)", "assign(38,12)", "assign(43,12)", "assign(48,12)", "assign(4,13)", "assign(9,13)", "assign(14,13)", "assign(19,13)", "assign(24,13)", "assign(29,13)", "assign(34,13)", "assign(39,13)", "assign(44,13)", "assign(49,13)", "assign(4,14)", "assign(9,14)", "assign(14,14)", "assign(19,14)", "assign(24,14)", "assign(29,14)", "assign(34,14)", "assign(39,14)", "assign(44,14)", "assign(49,14)", "assign(4,15)", "assign(9,15)", "assign(14,15)", "assign(19,15)", "assign(24,15)", "assign(29,15)", "assign(34,15)", "assign(39,15)", "assign(44,15)", "assign(49,15)", "assign(4,16)", "assign(9,16)", "assign(14,16)", "assign(19,16)", "assign(24,16)", "assign(29,16)", "assign(34,16)", "assign(39,16)", "assign(44,16)", "assign(49,16)", "assign(5,17)", "assign(10,17)", "assign(15,17)", "assign(20,17)", "assign(25,17)", "assign(30,17)", "assign(35,17)", "assign(40,17)", "assign(45,17)", "assign(50,17)", "assign(5,18)", "assign(10,18)", "assign(15,18)", "assign(20,18)", "assign(25,18)", "assign(30,18)", "assign(35,18)", "assign(40,18)", "assign(45,18)", "assign(50,18)", "assign(5,19)", "assign(10,19)", "assign(15,19)", "assign(20,19)", "assign(25,19)", "assign(30,19)", "assign(35,19)", "assign(40,19)", "assign(45,19)", "assign(50,19)", "assign(5,20)", "assign(10,20)", "assign(15,20)", "assign(20,20)", "assign(25,20)", "assign(30,20)", "assign(35,20)", "assign(40,20)", "assign(45,20)", "assign(50,20)"
+          ]
+        }
+      ],
+      "Stop": 6.461
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 1,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 6.461,
+    "Solve": 0.291,
+    "Model": 0.161,
+    "Unsat": 0.130,
+    "CPU": 5.928
+  }
+}

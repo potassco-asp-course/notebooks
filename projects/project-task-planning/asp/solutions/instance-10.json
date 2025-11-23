@@ -1,0 +1,33 @@
+{
+  "Solver": "clingo version 5.8.0",
+  "Input": [
+    "taskplanning.lp","instances/instance-10.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Witnesses": [
+        {
+          "Time": 0.008,
+          "Value": [
+            "starts(3,4)", "starts(4,1)", "starts(1,1)", "starts(2,6)", "assign(1,2)", "assign(2,2)", "assign(4,3)", "assign(3,3)", "assign(1,1)", "assign(2,1)", "assign(3,1)"
+          ]
+        }
+      ],
+      "Stop": 0.008
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 1,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.008,
+    "Solve": 0.000,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.007
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "Solver": "clingo version 5.8.0",
+  "Input": [
+    "taskplanning.lp","instances/instance-12.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Witnesses": [
+        {
+          "Time": 0.015,
+          "Value": [
+            "starts(3,7)", "starts(4,1)", "starts(7,7)", "starts(8,1)", "starts(1,1)", "starts(2,11)", "starts(5,1)", "starts(6,11)", "assign(1,2)", "assign(2,2)", "assign(5,5)", "assign(6,5)", "assign(4,3)", "assign(3,3)", "assign(8,6)", "assign(7,6)", "assign(5,4)", "assign(6,4)", "assign(7,4)", "assign(1,1)", "assign(2,1)", "assign(3,1)"
+          ]
+        },
+        {
+          "Time": 0.015,
+          "Value": [
+            "starts(3,7)", "starts(4,1)", "starts(7,7)", "starts(8,1)", "starts(1,1)", "starts(2,11)", "starts(5,1)", "starts(6,11)", "assign(1,2)", "assign(2,2)", "assign(5,5)", "assign(6,5)", "assign(4,3)", "assign(3,3)", "assign(8,6)", "assign(7,6)", "assign(7,1)", "assign(5,4)", "assign(6,4)", "assign(1,1)", "assign(2,1)", "assign(3,4)"
+          ]
+        }
+      ],
+      "Stop": 0.015
+    }
+  ],
+  "Result": "SATISFIABLE",
+  "Models": {
+    "Number": 2,
+    "More": "no"
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.015,
+    "Solve": 0.000,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.014
+  }
+}
