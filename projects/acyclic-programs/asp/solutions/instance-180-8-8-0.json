@@ -1,0 +1,464 @@
+{
+  "Solver": "clingo version 5.8.0",
+  "Input": [
+    "acyclic-programs.lp","instances/instance-180-8-8-0.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Witnesses": [
+        {
+          "Time": 2.354,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,j)", "body(2,-1,k)", "body(2,-1,n)", "body(2,-1,p)", "body(2,-1,v)", "body(3,1,a)", "body(3,1,g)", "body(3,-1,f)", "body(3,-1,m)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.354,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,j)", "body(2,-1,k)", "body(2,-1,n)", "body(2,-1,o)", "body(2,-1,v)", "body(3,1,a)", "body(3,1,g)", "body(3,-1,f)", "body(3,-1,m)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.354,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,i)", "body(2,-1,j)", "body(2,-1,k)", "body(2,-1,p)", "body(2,-1,v)", "body(3,1,a)", "body(3,1,g)", "body(3,-1,f)", "body(3,-1,m)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.354,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,i)", "body(2,-1,j)", "body(2,-1,k)", "body(2,-1,o)", "body(2,-1,v)", "body(3,1,a)", "body(3,1,g)", "body(3,-1,f)", "body(3,-1,m)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.354,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,e)", "body(2,-1,k)", "body(2,-1,n)", "body(2,-1,p)", "body(2,-1,v)", "body(3,1,a)", "body(3,1,g)", "body(3,-1,f)", "body(3,-1,m)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.354,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,e)", "body(2,-1,k)", "body(2,-1,n)", "body(2,-1,o)", "body(2,-1,v)", "body(3,1,a)", "body(3,1,g)", "body(3,-1,f)", "body(3,-1,m)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.354,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,e)", "body(2,-1,i)", "body(2,-1,k)", "body(2,-1,p)", "body(2,-1,v)", "body(3,1,a)", "body(3,1,g)", "body(3,-1,f)", "body(3,-1,m)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.354,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,e)", "body(2,-1,i)", "body(2,-1,k)", "body(2,-1,o)", "body(2,-1,v)", "body(3,1,a)", "body(3,1,g)", "body(3,-1,f)", "body(3,-1,m)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.361,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,g)", "body(2,-1,h)", "body(2,-1,m)", "body(2,-1,u)", "body(3,1,a)", "body(3,1,g)", "body(3,-1,f)", "body(3,-1,m)", "body(4,-1,e)", "body(4,-1,i)", "body(4,-1,k)", "body(4,-1,o)", "body(4,-1,v)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.361,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,g)", "body(2,-1,h)", "body(2,-1,m)", "body(2,-1,u)", "body(3,1,a)", "body(3,1,g)", "body(3,-1,f)", "body(3,-1,m)", "body(4,-1,i)", "body(4,-1,j)", "body(4,-1,k)", "body(4,-1,o)", "body(4,-1,v)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.361,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,g)", "body(2,-1,h)", "body(2,-1,m)", "body(2,-1,u)", "body(3,1,a)", "body(3,1,g)", "body(3,-1,f)", "body(3,-1,m)", "body(4,-1,e)", "body(4,-1,i)", "body(4,-1,k)", "body(4,-1,p)", "body(4,-1,v)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.361,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,g)", "body(2,-1,h)", "body(2,-1,m)", "body(2,-1,u)", "body(3,1,a)", "body(3,1,g)", "body(3,-1,f)", "body(3,-1,m)", "body(4,-1,i)", "body(4,-1,j)", "body(4,-1,k)", "body(4,-1,p)", "body(4,-1,v)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.362,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,g)", "body(2,-1,h)", "body(2,-1,m)", "body(2,-1,u)", "body(3,1,a)", "body(3,1,g)", "body(3,-1,f)", "body(3,-1,m)", "body(4,-1,j)", "body(4,-1,k)", "body(4,-1,n)", "body(4,-1,p)", "body(4,-1,v)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.362,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,g)", "body(2,-1,h)", "body(2,-1,m)", "body(2,-1,u)", "body(3,1,a)", "body(3,1,g)", "body(3,-1,f)", "body(3,-1,m)", "body(4,-1,e)", "body(4,-1,k)", "body(4,-1,n)", "body(4,-1,p)", "body(4,-1,v)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.362,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,g)", "body(2,-1,h)", "body(2,-1,m)", "body(2,-1,u)", "body(3,1,a)", "body(3,1,g)", "body(3,-1,f)", "body(3,-1,m)", "body(4,-1,j)", "body(4,-1,k)", "body(4,-1,n)", "body(4,-1,o)", "body(4,-1,v)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.362,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,g)", "body(2,-1,h)", "body(2,-1,m)", "body(2,-1,u)", "body(3,1,a)", "body(3,1,g)", "body(3,-1,f)", "body(3,-1,m)", "body(4,-1,e)", "body(4,-1,k)", "body(4,-1,n)", "body(4,-1,o)", "body(4,-1,v)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.377,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,-1,j)", "body(4,-1,k)", "body(4,-1,n)", "body(4,-1,o)", "body(4,-1,v)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.377,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,-1,j)", "body(4,-1,k)", "body(4,-1,n)", "body(4,-1,p)", "body(4,-1,v)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.377,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,-1,i)", "body(4,-1,j)", "body(4,-1,k)", "body(4,-1,o)", "body(4,-1,v)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.377,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,-1,i)", "body(4,-1,j)", "body(4,-1,k)", "body(4,-1,p)", "body(4,-1,v)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.377,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,-1,e)", "body(4,-1,k)", "body(4,-1,n)", "body(4,-1,o)", "body(4,-1,v)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.377,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,-1,e)", "body(4,-1,k)", "body(4,-1,n)", "body(4,-1,p)", "body(4,-1,v)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.377,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,-1,e)", "body(4,-1,i)", "body(4,-1,k)", "body(4,-1,o)", "body(4,-1,v)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.377,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,-1,e)", "body(4,-1,i)", "body(4,-1,k)", "body(4,-1,p)", "body(4,-1,v)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.382,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,e)", "body(3,-1,k)", "body(3,-1,n)", "body(3,-1,p)", "body(3,-1,v)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.382,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,e)", "body(3,-1,k)", "body(3,-1,n)", "body(3,-1,o)", "body(3,-1,v)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.382,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,e)", "body(3,-1,i)", "body(3,-1,k)", "body(3,-1,p)", "body(3,-1,v)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.382,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,e)", "body(3,-1,i)", "body(3,-1,k)", "body(3,-1,o)", "body(3,-1,v)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.382,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,j)", "body(3,-1,k)", "body(3,-1,n)", "body(3,-1,p)", "body(3,-1,v)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.382,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,j)", "body(3,-1,k)", "body(3,-1,n)", "body(3,-1,o)", "body(3,-1,v)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.382,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,i)", "body(3,-1,j)", "body(3,-1,k)", "body(3,-1,p)", "body(3,-1,v)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.382,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,i)", "body(3,-1,j)", "body(3,-1,k)", "body(3,-1,o)", "body(3,-1,v)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.395,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,g)", "body(2,-1,h)", "body(2,-1,m)", "body(2,-1,u)", "body(3,-1,e)", "body(3,-1,k)", "body(3,-1,n)", "body(3,-1,p)", "body(3,-1,v)", "body(4,1,a)", "body(4,1,g)", "body(4,-1,f)", "body(4,-1,m)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.395,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,g)", "body(2,-1,h)", "body(2,-1,m)", "body(2,-1,u)", "body(3,-1,e)", "body(3,-1,k)", "body(3,-1,n)", "body(3,-1,o)", "body(3,-1,v)", "body(4,1,a)", "body(4,1,g)", "body(4,-1,f)", "body(4,-1,m)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.395,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,g)", "body(2,-1,h)", "body(2,-1,m)", "body(2,-1,u)", "body(3,-1,e)", "body(3,-1,i)", "body(3,-1,k)", "body(3,-1,p)", "body(3,-1,v)", "body(4,1,a)", "body(4,1,g)", "body(4,-1,f)", "body(4,-1,m)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.395,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,g)", "body(2,-1,h)", "body(2,-1,m)", "body(2,-1,u)", "body(3,-1,e)", "body(3,-1,i)", "body(3,-1,k)", "body(3,-1,o)", "body(3,-1,v)", "body(4,1,a)", "body(4,1,g)", "body(4,-1,f)", "body(4,-1,m)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.395,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,g)", "body(2,-1,h)", "body(2,-1,m)", "body(2,-1,u)", "body(3,-1,j)", "body(3,-1,k)", "body(3,-1,n)", "body(3,-1,p)", "body(3,-1,v)", "body(4,1,a)", "body(4,1,g)", "body(4,-1,f)", "body(4,-1,m)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.395,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,g)", "body(2,-1,h)", "body(2,-1,m)", "body(2,-1,u)", "body(3,-1,j)", "body(3,-1,k)", "body(3,-1,n)", "body(3,-1,o)", "body(3,-1,v)", "body(4,1,a)", "body(4,1,g)", "body(4,-1,f)", "body(4,-1,m)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.395,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,g)", "body(2,-1,h)", "body(2,-1,m)", "body(2,-1,u)", "body(3,-1,i)", "body(3,-1,j)", "body(3,-1,k)", "body(3,-1,p)", "body(3,-1,v)", "body(4,1,a)", "body(4,1,g)", "body(4,-1,f)", "body(4,-1,m)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.395,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,g)", "body(2,-1,h)", "body(2,-1,m)", "body(2,-1,u)", "body(3,-1,i)", "body(3,-1,j)", "body(3,-1,k)", "body(3,-1,o)", "body(3,-1,v)", "body(4,1,a)", "body(4,1,g)", "body(4,-1,f)", "body(4,-1,m)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.408,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,e)", "body(2,-1,k)", "body(2,-1,n)", "body(2,-1,p)", "body(2,-1,v)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,1,a)", "body(4,1,g)", "body(4,-1,f)", "body(4,-1,m)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.408,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,e)", "body(2,-1,k)", "body(2,-1,n)", "body(2,-1,o)", "body(2,-1,v)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,1,a)", "body(4,1,g)", "body(4,-1,f)", "body(4,-1,m)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.408,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,e)", "body(2,-1,i)", "body(2,-1,k)", "body(2,-1,p)", "body(2,-1,v)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,1,a)", "body(4,1,g)", "body(4,-1,f)", "body(4,-1,m)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.408,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,e)", "body(2,-1,i)", "body(2,-1,k)", "body(2,-1,o)", "body(2,-1,v)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,1,a)", "body(4,1,g)", "body(4,-1,f)", "body(4,-1,m)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.409,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,i)", "body(2,-1,j)", "body(2,-1,k)", "body(2,-1,p)", "body(2,-1,v)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,1,a)", "body(4,1,g)", "body(4,-1,f)", "body(4,-1,m)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.409,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,i)", "body(2,-1,j)", "body(2,-1,k)", "body(2,-1,o)", "body(2,-1,v)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,1,a)", "body(4,1,g)", "body(4,-1,f)", "body(4,-1,m)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.409,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,j)", "body(2,-1,k)", "body(2,-1,n)", "body(2,-1,p)", "body(2,-1,v)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,1,a)", "body(4,1,g)", "body(4,-1,f)", "body(4,-1,m)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 2.409,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,-1,j)", "body(2,-1,k)", "body(2,-1,n)", "body(2,-1,o)", "body(2,-1,v)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,1,a)", "body(4,1,g)", "body(4,-1,f)", "body(4,-1,m)", "head(2,2)", "head(3,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        }
+      ],
+      "Stop": 2.415
+    }
+  ],
+  "Result": "OPTIMUM FOUND",
+  "Models": {
+    "Number": 130,
+    "More": "no",
+    "Optimum": "yes",
+    "Optimal": 48,
+    "Costs": [
+      4, 14
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 2.415,
+    "Solve": 2.183,
+    "Model": 0.028,
+    "Unsat": 0.006,
+    "CPU": 2.414
+  }
+}

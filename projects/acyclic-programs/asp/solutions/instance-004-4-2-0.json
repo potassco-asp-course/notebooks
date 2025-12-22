@@ -1,0 +1,50 @@
+{
+  "Solver": "clingo version 5.8.0",
+  "Input": [
+    "acyclic-programs.lp","instances/instance-004-4-2-0.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Witnesses": [
+        {
+          "Time": 0.003,
+          "Value": [
+            "head(1,1)", "body(1,1,c)"
+          ],
+          "Costs": [
+            1, 1
+          ]
+        },
+        {
+          "Time": 0.003,
+          "Value": [
+            "head(1,1)", "body(1,1,h)"
+          ],
+          "Costs": [
+            1, 1
+          ]
+        }
+      ],
+      "Stop": 0.003
+    }
+  ],
+  "Result": "OPTIMUM FOUND",
+  "Models": {
+    "Number": 3,
+    "More": "no",
+    "Optimum": "yes",
+    "Optimal": 2,
+    "Costs": [
+      1, 1
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.003,
+    "Solve": 0.000,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.003
+  }
+}

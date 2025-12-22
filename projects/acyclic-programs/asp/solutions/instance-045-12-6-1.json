@@ -1,0 +1,59 @@
+{
+  "Solver": "clingo version 5.8.0",
+  "Input": [
+    "acyclic-programs.lp","instances/instance-045-12-6-1.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Witnesses": [
+        {
+          "Time": 0.530,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,e)", "body(3,-1,h)", "body(3,-1,v)", "body(4,-1,g)", "body(4,-1,k)", "body(4,-1,m)", "head(3,2)", "head(2,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 10
+          ]
+        },
+        {
+          "Time": 0.530,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,a)", "body(3,-1,h)", "body(3,-1,v)", "body(4,-1,g)", "body(4,-1,k)", "body(4,-1,m)", "head(3,2)", "head(2,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 10
+          ]
+        },
+        {
+          "Time": 0.532,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,g)", "body(3,-1,k)", "body(3,-1,m)", "body(4,-1,h)", "body(4,-1,j)", "body(4,-1,v)", "head(3,2)", "head(2,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 10
+          ]
+        }
+      ],
+      "Stop": 0.538
+    }
+  ],
+  "Result": "OPTIMUM FOUND",
+  "Models": {
+    "Number": 59,
+    "More": "no",
+    "Optimum": "yes",
+    "Optimal": 3,
+    "Costs": [
+      4, 10
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.538,
+    "Solve": 0.434,
+    "Model": 0.018,
+    "Unsat": 0.005,
+    "CPU": 0.537
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "Solver": "clingo version 5.8.0",
+  "Input": [
+    "acyclic-programs.lp","instances/instance-002-4-2-0.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Witnesses": [
+        {
+          "Time": 0.104,
+          "Value": [
+            "head(1,1)", "body(1,1,c)"
+          ],
+          "Costs": [
+            1, 1
+          ]
+        },
+        {
+          "Time": 0.104,
+          "Value": [
+            "head(1,1)", "body(1,1,d)"
+          ],
+          "Costs": [
+            1, 1
+          ]
+        },
+        {
+          "Time": 0.104,
+          "Value": [
+            "head(1,1)", "body(1,1,h)"
+          ],
+          "Costs": [
+            1, 1
+          ]
+        },
+        {
+          "Time": 0.104,
+          "Value": [
+            "head(1,1)", "body(1,1,i)"
+          ],
+          "Costs": [
+            1, 1
+          ]
+        },
+        {
+          "Time": 0.104,
+          "Value": [
+            "head(1,1)", "body(1,1,n)"
+          ],
+          "Costs": [
+            1, 1
+          ]
+        },
+        {
+          "Time": 0.104,
+          "Value": [
+            "head(1,1)", "body(1,1,v)"
+          ],
+          "Costs": [
+            1, 1
+          ]
+        }
+      ],
+      "Stop": 0.104
+    }
+  ],
+  "Result": "OPTIMUM FOUND",
+  "Models": {
+    "Number": 7,
+    "More": "no",
+    "Optimum": "yes",
+    "Optimal": 6,
+    "Costs": [
+      1, 1
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.104,
+    "Solve": 0.000,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.009
+  }
+}

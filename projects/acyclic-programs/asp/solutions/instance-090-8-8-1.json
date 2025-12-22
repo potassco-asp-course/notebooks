@@ -1,0 +1,104 @@
+{
+  "Solver": "clingo version 5.8.0",
+  "Input": [
+    "acyclic-programs.lp","instances/instance-090-8-8-1.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Witnesses": [
+        {
+          "Time": 0.776,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,-1,i)", "body(4,-1,j)", "body(4,-1,k)", "body(4,-1,o)", "body(4,-1,v)", "head(3,2)", "head(2,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 0.776,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,-1,j)", "body(4,-1,k)", "body(4,-1,n)", "body(4,-1,o)", "body(4,-1,v)", "head(3,2)", "head(2,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 0.776,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,-1,i)", "body(4,-1,j)", "body(4,-1,k)", "body(4,-1,p)", "body(4,-1,v)", "head(3,2)", "head(2,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 0.777,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,g)", "body(3,-1,h)", "body(3,-1,m)", "body(3,-1,u)", "body(4,-1,j)", "body(4,-1,k)", "body(4,-1,n)", "body(4,-1,p)", "body(4,-1,v)", "head(3,2)", "head(2,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 0.785,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,e)", "body(3,-1,k)", "body(3,-1,n)", "body(3,-1,p)", "body(3,-1,v)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(3,2)", "head(2,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 0.785,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,e)", "body(3,-1,k)", "body(3,-1,n)", "body(3,-1,o)", "body(3,-1,v)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(3,2)", "head(2,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 0.785,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,e)", "body(3,-1,i)", "body(3,-1,k)", "body(3,-1,o)", "body(3,-1,v)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(3,2)", "head(2,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        },
+        {
+          "Time": 0.785,
+          "Value": [
+            "head(1,1)", "body(1,-1,2)", "body(2,1,a)", "body(2,1,g)", "body(2,-1,f)", "body(2,-1,m)", "body(3,-1,e)", "body(3,-1,i)", "body(3,-1,k)", "body(3,-1,p)", "body(3,-1,v)", "body(4,-1,g)", "body(4,-1,h)", "body(4,-1,m)", "body(4,-1,u)", "head(3,2)", "head(2,2)", "head(4,2)"
+          ],
+          "Costs": [
+            4, 14
+          ]
+        }
+      ],
+      "Stop": 0.815
+    }
+  ],
+  "Result": "OPTIMUM FOUND",
+  "Models": {
+    "Number": 86,
+    "More": "no",
+    "Optimum": "yes",
+    "Optimal": 8,
+    "Costs": [
+      4, 14
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.815,
+    "Solve": 0.707,
+    "Model": 0.023,
+    "Unsat": 0.030,
+    "CPU": 0.815
+  }
+}

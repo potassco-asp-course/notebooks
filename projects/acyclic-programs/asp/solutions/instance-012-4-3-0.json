@@ -1,0 +1,122 @@
+{
+  "Solver": "clingo version 5.8.0",
+  "Input": [
+    "acyclic-programs.lp","instances/instance-012-4-3-0.lp"
+  ],
+  "Call": [
+    {
+      "Start": 0.000,
+      "Witnesses": [
+        {
+          "Time": 0.008,
+          "Value": [
+            "head(1,1)", "body(1,1,t)", "body(1,1,v)", "body(2,1,h)", "head(2,1)"
+          ],
+          "Costs": [
+            2, 3
+          ]
+        },
+        {
+          "Time": 0.008,
+          "Value": [
+            "head(1,1)", "body(1,1,t)", "body(1,-1,l)", "body(2,1,h)", "head(2,1)"
+          ],
+          "Costs": [
+            2, 3
+          ]
+        },
+        {
+          "Time": 0.008,
+          "Value": [
+            "head(1,1)", "body(1,1,v)", "body(1,-1,j)", "body(2,1,h)", "head(2,1)"
+          ],
+          "Costs": [
+            2, 3
+          ]
+        },
+        {
+          "Time": 0.008,
+          "Value": [
+            "head(1,1)", "body(1,1,v)", "body(1,-1,a)", "body(2,1,h)", "head(2,1)"
+          ],
+          "Costs": [
+            2, 3
+          ]
+        },
+        {
+          "Time": 0.008,
+          "Value": [
+            "head(1,1)", "body(1,1,v)", "body(1,-1,e)", "body(2,1,h)", "head(2,1)"
+          ],
+          "Costs": [
+            2, 3
+          ]
+        },
+        {
+          "Time": 0.008,
+          "Value": [
+            "head(1,1)", "body(1,1,h)", "body(2,1,t)", "body(2,-1,l)", "head(2,1)"
+          ],
+          "Costs": [
+            2, 3
+          ]
+        },
+        {
+          "Time": 0.008,
+          "Value": [
+            "head(1,1)", "body(1,1,h)", "body(2,1,t)", "body(2,1,v)", "head(2,1)"
+          ],
+          "Costs": [
+            2, 3
+          ]
+        },
+        {
+          "Time": 0.008,
+          "Value": [
+            "head(1,1)", "body(1,1,h)", "body(2,1,v)", "body(2,-1,e)", "head(2,1)"
+          ],
+          "Costs": [
+            2, 3
+          ]
+        },
+        {
+          "Time": 0.008,
+          "Value": [
+            "head(1,1)", "body(1,1,h)", "body(2,1,v)", "body(2,-1,j)", "head(2,1)"
+          ],
+          "Costs": [
+            2, 3
+          ]
+        },
+        {
+          "Time": 0.008,
+          "Value": [
+            "head(1,1)", "body(1,1,h)", "body(2,1,v)", "body(2,-1,a)", "head(2,1)"
+          ],
+          "Costs": [
+            2, 3
+          ]
+        }
+      ],
+      "Stop": 0.008
+    }
+  ],
+  "Result": "OPTIMUM FOUND",
+  "Models": {
+    "Number": 12,
+    "More": "no",
+    "Optimum": "yes",
+    "Optimal": 10,
+    "Costs": [
+      2, 3
+    ]
+  },
+  "Calls": 1,
+  "Time": {
+    "Total": 0.008,
+    "Solve": 0.001,
+    "Model": 0.000,
+    "Unsat": 0.000,
+    "CPU": 0.008
+  }
+}
