@@ -68,7 +68,9 @@ def test_instance(args,instance):
     ref_solutions = get_solutions(output)
     
     # check
-    if args.subset:
+    if args.correct:
+        if len(solutions) == 0 and len(ref_solutions) != 0: # UNSAT case
+            return False, time
         check = True
         for s in solutions:
             if s not in ref_solutions:
@@ -140,8 +142,8 @@ def parse():
     parser.add_argument('--timeout', '-t', metavar='N', type=int,
                         help='Timeout per instance', required=True)
     parser.add_argument('--models', '-m', metavar='M', type=int,
-                        help='Maximum number of computed models', default=500, required=False)
-    parser.add_argument('--correct', '-cor', dest = 'subset', action='store_const', const=True,
+                        help='Maximum number of computed models', default=1000, required=False)
+    parser.add_argument('--correct', '-cor', dest = 'correct', action='store_const', const=True,
                         help='Check only if every computed model is a correct solution, do not check if all solutions are computed', default=False, required=False)
     
     # parse
