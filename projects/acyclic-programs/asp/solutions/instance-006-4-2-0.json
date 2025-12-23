@@ -145,7 +145,7 @@
         {
           "Time": 0.004,
           "Value": [
-            "head(1,1)", "body(1,1,h)", "body(2,1,k)", "head(2,1)"
+            "head(1,1)", "body(1,1,a)", "body(2,1,v)", "head(2,1)"
           ],
           "Costs": [
             2, 2
@@ -199,7 +199,7 @@
         {
           "Time": 0.004,
           "Value": [
-            "head(1,1)", "body(1,1,a)", "body(2,1,v)", "head(2,1)"
+            "head(1,1)", "body(1,1,h)", "body(2,1,k)", "head(2,1)"
           ],
           "Costs": [
             2, 2
