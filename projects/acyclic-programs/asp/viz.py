@@ -18,7 +18,7 @@ for atom in atoms:
         body_of.setdefault(int(r), []).append((int(s), a))
 
 # print rules
-HEAD_STR = "h"
+HEAD_STR = "aux"
 for r in sorted(head_of.keys()):
     #
     head = head_of[r]
